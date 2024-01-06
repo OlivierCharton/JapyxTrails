@@ -1,83 +1,28 @@
-<!-- 
-	Welcome to Teh's Example Pack! 
-	Feel free to modify this file however you want to customize it for your own pack 
-	Comments can be made by enclosing them in these symbols, use them to keep your XML organized! 
-	Whitespace doesn't matter in XML, and can also be used to increase readability for your editing purposes 
--->
-
-<!-- Everything for your pack should be contained inside of this overlay data element -->
 <OverlayData>
-
-
-    <!-- 
-	**************************************************************************** 
-	*                                                                          *
-	*                            MARKER CATEGORIES                             *
-	*                                                                          *
-	****************************************************************************
-
-	This is where the organization for your pack happens, and where you can assign attributes on a categorical level
-	If you're looking for information on attributes, the best place to start is: https://blishhud.com/docs/markers/development/attributes/
-
-
-	This is your main category, e.g. your entire pack goes inside of this 
-	 |    All marker categories have at least two attributes 
-	 |         The 'name' attribute is how the category is referenced internally (in the 'type' attribute of a marker)
-     |               | The 'displayName' attribute is what will be shown to the user when looking through categories
-	 |               |            | 
-     V               V            V -->
-	<MarkerCategory name="" displayName="">
-	
-		<!-- This is an example of a sub-category -->
-		<MarkerCategory name="" displayName="">
-		
-			<!-- This is an example of an actual marker
-			      |    Markers have an additional 'iconFile' attribute, which is the path to what image will be used for that marker
-			      |                                  |               Markers are closed with a '/' because they do not contain other markers
-			      |                                  |                              |   
-			      V                                  V                              V   -->
-			<MarkerCategory name="" displayName="" iconFile="Data/YOUR/FILE/PATH.png"/>
-			
+	<MarkerCategory name="jt" displayName="Japyx's Trail">
+		<MarkerCategory name="h" displayName="Hoelbrak">
+			<MarkerCategory name="t" DisplayName="Trail" fadeNear="3000" fadeFar="3500" texture="Data/JapyxTrails/Markers/Trail.png" mapVisibility="0"/>
+			<MarkerCategory Name="m" DisplayName="Markers" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 		</MarkerCategory>
-		
-			<!-- This is an example of a trail category
-				  |                                  Trails use the texture attribute instead of iconFile
-				  |                                                    |     Trails also require fadeNear and fadeFar, which are when the trail starts to fade and completely disappears, respectively
-				  |                                                    |              |               |
-				  V                                                    V              V               V  --> 
-		<MarkerCategory name="" displayName="" texture="Data/YOUR/FILE/PATH.png" fadeNear="3000" fadeFar="3500"/>
-		
 	</MarkerCategory>
 	
-	
-	<!-- 
-	**************************************************************************** 
-	*                                                                          *
-	*                           MARKERS AND TRAILS                             *
-	*                                                                          *
-	****************************************************************************
-	
-	All of your POIs (markers) and Trails go inside this POIs element 
-	 |
-     V	 -->
 	<POIs>
-	
-	<!-- Every Marker starts with POI and has at least 6 attributes (technically 'type' can be left out, but shouldn't be)
-         |  'MapID' tells us what map that marker is on
-         |     |     'xpos/ypos/zpos' are the xyz coordinates that the marker is located at. They are truncated to 6 digits and can be negative and positive
-         |     |        |       |      |     'type' tells us what MarkerCategory this marker belongs to
-         |     |        |       |      |        |    'GUID' is a unique identifier that is used for tracking certain behaviors(hide/unhide)
-         |     |        |       |      |        |      |
-         V     V        V       V      V        V      V -->
-        <POI MapID="" xpos="" ypos="" zpos="" type="" GUID=""/>
-	
-	<!-- Every Trail starts with Trail and has at least 2 attributes (technically 'type' can be left out, but shouldn't be)
-	       |  'type' is the same as with markers
-		   |          'trailData' is a file path to the .trl file that should be used for this trail
-		   |               |
-	       V               V                               -->
-        <Trail type="" trailData="Data/YOUR/FILE/PATH.trl"/>
-		
+		<POI MapID="375" xpos="103.709" ypos="341.974" zpos="-283.684" type="jt.h.m" GUID="9eFbnu6Bi0Wqnq39t1rp3w=="/>
+		<POI MapID="375" xpos="101.698" ypos="341.974" zpos="-290.532" type="jt.h.m" GUID="YADC61PkiEq6UZYpGtff8Q=="/>
+		<POI MapID="375" xpos="97.4379" ypos="341.974" zpos="-298.839" type="jt.h.m" GUID="atj8QZdJ+02KMBRmYNOMwg=="/>
+		<POI MapID="375" xpos="118.936" ypos="343.3" zpos="-272.851" type="jt.h.m" GUID="wvCLfEmoekmDPq6ARTHJcg=="/>
+		<POI MapID="375" xpos="123.868" ypos="343.302" zpos="-275.028" type="jt.h.m" GUID="2uC8XcMDU0+UUfI3+pvJDw=="/>
+		<POI MapID="375" xpos="131.588" ypos="342.12" zpos="-291.636" type="jt.h.m" GUID="PPc14Z2frEyKlLA+EKoRuQ=="/>
+		<POI MapID="375" xpos="123.69" ypos="342.128" zpos="-307.496" type="jt.h.m" GUID="lViOTPcyLkaK7dJrPC7PWA==" info="2x&#xA;Annuler l'animation de la 2e récolte après 2 éléments."/>
+		<POI MapID="375" xpos="116.461" ypos="342.151" zpos="-309.164" type="jt.h.m" GUID="3JAQRRQ6lUO9+stxwq7V4g=="/>
+		<POI MapID="375" xpos="97.7871" ypos="341.971" zpos="-334.461" type="jt.h.m" GUID="h0wHN8fiXEW5aHS/Wan42Q=="/>
+		<POI MapID="375" xpos="84.086" ypos="342.179" zpos="-329.597" type="jt.h.m" GUID="aeQ8jzg+5E+XZyXvww2ThA=="/>
+		<POI MapID="375" xpos="63.1675" ypos="342.179" zpos="-319.963" type="jt.h.m" GUID="RTHTkgNUykWaprIQhIufFQ=="/>
+
+		<POI MapID="1206" xpos="-66.62931" ypos="117.92" zpos="-7.389192" type="jt.h.m" GUID="oS3d1hioskqTlb+N4Sk79w=="/>
+		<POI MapID="1206" xpos="-59.06502" ypos="117.92" zpos="-7.485167" type="jt.h.m" GUID="kVFtkyIadEeJQiLUbIGahA==" iconFile="Data/JapyxTrails/Markers/Ore.png" />
+
+		<Trail type="jt.h.t" trailData="Data/JapyxTrails/Trails/JapyxTrails.trl"/>		
 	</POIs>
 
 </OverlayData>
