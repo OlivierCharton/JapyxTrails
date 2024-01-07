@@ -1,9 +1,9 @@
 <OverlayData>
 	<MarkerCategory name="jt" displayName="Japyx's Trail">
 		<MarkerCategory name="h" displayName="Hoelbrak">
-			<MarkerCategory name="t" DisplayName="Trail" fadeNear="3000" fadeFar="3500" texture="Data/JapyxTrails/Markers/Trail.png" mapVisibility="0"/>
-			<MarkerCategory name="bc" DisplayName="Coffre de bandit" fadeNear="500" fadeFar="1000" texture="Data/JapyxTrails/Markers/SideTrail.png" mapVisibility="0"/>
-			<MarkerCategory Name="m" DisplayName="Markers" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8" miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory name="bc" DisplayName="Coffre de bandit" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -46,8 +46,8 @@
 
 		<POI MapID="375" xpos="34.3523" ypos="342.179" zpos="-231.07" type="jt.h.m" GUID="6Ver22NYjE2XRVGj+lLnpg==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Attention à ne pas sortir !"/>
 
-		<Trail type="jt.h.t" trailData="Data/JapyxTrails/Trails/JapyxTrails.trl" miniMapVisibility="0" />		
-		<Trail type="jt.h.bc" trailData="Data/JapyxTrails/Trails/BanditChest.trl" miniMapVisibility="0" />		
+		<Trail type="jt.h.t" trailData="Data/JapyxTrails/Trails/JapyxTrails.trl"/>		
+		<Trail type="jt.h.bc" trailData="Data/JapyxTrails/Trails/BanditChest.trl"/>		
 	</POIs>
 
 </OverlayData>
