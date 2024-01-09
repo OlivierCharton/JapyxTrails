@@ -2,19 +2,27 @@
 	<MarkerCategory name="jt" displayName="Japyx's Trail">
 		<MarkerCategory name="h" displayName="Hoelbrak">
 			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8" miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory name="bc" DisplayName="Coffre de bandit" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+		</MarkerCategory>
+		<MarkerCategory name="dr" displayName="Divinity's Reach">
+			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
 			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
 	<POIs>
+		<!--======================================================================================================-->
+		<!--==                                             HOELBRAK                                             ==-->
+		<!--======================================================================================================-->
 		<POI MapID="375" xpos="103.709" ypos="341.974" zpos="-283.684" type="jt.h.m" GUID="9eFbnu6Bi0Wqnq39t1rp3w=="/>
 		<POI MapID="375" xpos="101.698" ypos="341.974" zpos="-290.532" type="jt.h.m" GUID="YADC61PkiEq6UZYpGtff8Q=="/>
 		<POI MapID="375" xpos="97.4379" ypos="341.974" zpos="-298.839" type="jt.h.m" GUID="atj8QZdJ+02KMBRmYNOMwg=="/>
 		<POI MapID="375" xpos="118.936" ypos="343.3" zpos="-272.851" type="jt.h.m" GUID="wvCLfEmoekmDPq6ARTHJcg=="/>
 		<POI MapID="375" xpos="123.868" ypos="343.302" zpos="-275.028" type="jt.h.m" GUID="2uC8XcMDU0+UUfI3+pvJDw=="/>
 		<POI MapID="375" xpos="131.588" ypos="342.12" zpos="-291.636" type="jt.h.m" GUID="PPc14Z2frEyKlLA+EKoRuQ=="/>
-		<POI MapID="375" xpos="123.69" ypos="342.128" zpos="-307.496" type="jt.h.m" GUID="lViOTPcyLkaK7dJrPC7PWA==" info="2x&#xA;Annuler l'animation de la 2e récolte après 2 éléments."/>
+		<POI MapID="375" xpos="123.69" ypos="342.128" zpos="-307.496" type="jt.h.m" GUID="lViOTPcyLkaK7dJrPC7PWA==" info="2x&#xA;Cancel 2nd animation after 2 loots"/>
 		<POI MapID="375" xpos="116.461" ypos="342.151" zpos="-309.164" type="jt.h.m" GUID="3JAQRRQ6lUO9+stxwq7V4g=="/>
 		<POI MapID="375" xpos="96.8723" ypos="342.179" zpos="-335.288" type="jt.h.m" GUID="r+8kkrWwlk22NknJ4Fr2Tw=="/>
 		<POI MapID="375" xpos="83.7793" ypos="342.179" zpos="-329.331" type="jt.h.m" GUID="odV+PFaBqkCUwITj6L1/PQ=="/>
@@ -44,10 +52,50 @@
 		<POI MapID="375" xpos="120.087" ypos="374.644" zpos="-274.501" type="jt.h.m" GUID="w6ykxQBS/EKQ22bGPFVUFg=="/>
 		<POI MapID="375" xpos="126.28" ypos="374.618" zpos="-280.214" type="jt.h.m" GUID="BBVWK22B/k+bw4mTvN8eaw=="/>
 
-		<POI MapID="375" xpos="34.3523" ypos="342.179" zpos="-231.07" type="jt.h.m" GUID="6Ver22NYjE2XRVGj+lLnpg==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Attention à ne pas sortir !"/>
+		<POI MapID="375" xpos="34.3523" ypos="342.179" zpos="-231.07" type="jt.h.m" GUID="6Ver22NYjE2XRVGj+lLnpg==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Do not exit !"/>
 
-		<Trail type="jt.h.t" trailData="Data/JapyxTrails/Trails/JapyxTrails.trl"/>		
-		<Trail type="jt.h.bc" trailData="Data/JapyxTrails/Trails/BanditChest.trl"/>		
+		<Trail type="jt.h.t" trailData="Data/JapyxTrails/Trails/Hoelbrak-Trail.trl"/>
+		<Trail type="jt.h.bc" trailData="Data/JapyxTrails/Trails/Hoelbrak-BanditChest.trl"/>
+
+		<!--======================================================================================================-->
+		<!--==                                         DIVINITY'S REACH                                         ==-->
+		<!--======================================================================================================-->
+		<POI MapID="248" xpos="217.142" ypos="75.3244" zpos="162.644" type="jt.dr.m" GUID="6O1SfhJmmkyFmGlxuQRQmw=="/>
+		<POI MapID="248" xpos="230.008" ypos="76.2206" zpos="165.999" type="jt.dr.m" GUID="mJyyfXplCUqF3wAH3YAUpQ=="/>
+		<POI MapID="248" xpos="216.733" ypos="75.3245" zpos="170.746" type="jt.dr.m" GUID="0pgJIri+yUKtHi9qC5NnfQ=="/>
+		<POI MapID="248" xpos="216.147" ypos="76.3686" zpos="181.235" type="jt.dr.m" GUID="WacikaH3nUWfzQzMWLH3mw=="/>
+		<POI MapID="248" xpos="222.476" ypos="75.2728" zpos="181.289" type="jt.dr.m" GUID="hLf6K0uotEiLLmVJxCe/CQ=="/>
+		<POI MapID="248" xpos="232.794" ypos="75.3267" zpos="181.765" type="jt.dr.m" GUID="DUW7ZbQWck2QQIQk37PvDA=="/>
+		<POI MapID="248" xpos="267.55" ypos="67.7865" zpos="189.422" type="jt.dr.m" GUID="QfvTJKKPMEqs9vzG4gvmhQ=="/>
+		<POI MapID="248" xpos="264.627" ypos="68.668" zpos="197.603" type="jt.dr.m" GUID="+OHk6s/1K02gtAwnGPeaxQ=="/>
+		<POI MapID="248" xpos="275.922" ypos="69.2476" zpos="214.94" type="jt.dr.m" GUID="/aIsjEDEkEKcQ4hYjN4REw=="/>
+		<POI MapID="248" xpos="293.827" ypos="61.1594" zpos="235.741" type="jt.dr.m" GUID="WoQXMj6EaUqhAACt2UlUIQ==" info="Select Salvage Pile or move further to prevent skritt from blocking interaction"/>
+		<POI MapID="248" xpos="289.266" ypos="62.4922" zpos="252.919" type="jt.dr.m" GUID="+Tgj0ShFtUKjSdjETcVMJw=="/>
+		<POI MapID="248" xpos="297.806" ypos="63.3098" zpos="265.6" type="jt.dr.m" GUID="QyTxmaHnZUeMnNvGBCz1qg=="/>
+		<POI MapID="248" xpos="290.578" ypos="63.7554" zpos="276.153" type="jt.dr.m" GUID="iEvltVYpQEadlRhWkLEIWA=="/>
+		<POI MapID="248" xpos="257.335" ypos="69.1874" zpos="253.45" type="jt.dr.m" GUID="phk4aLuTtUK7qU7cNVXVkg=="/>
+		<POI MapID="248" xpos="239.853" ypos="69.664" zpos="242.319" type="jt.dr.m" GUID="N1hI+5Edx0WStNpHfgzhfg=="/>
+		<POI MapID="248" xpos="241.291" ypos="70.2654" zpos="238.068" type="jt.dr.m" GUID="UgwzmauK10eATXIHUwTlcw=="/>
+		<POI MapID="248" xpos="237.774" ypos="69.5535" zpos="236.225" type="jt.dr.m" GUID="q6/p7xZJq0CQgn2oW9omJQ=="/>
+		<POI MapID="248" xpos="240.039" ypos="70.0392" zpos="226.788" type="jt.dr.m" GUID="3EqpaEWCrkG1PWKHFRkFhQ==" info="Select Kournan Cache while harvesting to allow quick loot"/>
+		<POI MapID="248" xpos="241.917" ypos="69.3758" zpos="209.74" type="jt.dr.m" GUID="16GObecaakybEl8o1PmQJA=="/>
+		<POI MapID="248" xpos="224.665" ypos="70.1252" zpos="225.928" type="jt.dr.m" GUID="z5i6cIUNx0KJC0Y7kC4wWA=="/>
+		<POI MapID="248" xpos="209.455" ypos="69.2777" zpos="241.903" type="jt.dr.m" GUID="TNyUvtjfuEmr0Nh4HqGl3w=="/>
+		<POI MapID="248" xpos="185.722" ypos="71.7092" zpos="241.733" type="jt.dr.m" GUID="WpIi8gjIEESI/WLHNrTXGw=="/>
+		<POI MapID="248" xpos="199.393" ypos="70.01" zpos="255.908" type="jt.dr.m" GUID="eDTfDlXsE0OMnK6T01UEgw=="/>
+		<POI MapID="248" xpos="193.541" ypos="71.7726" zpos="273.542" type="jt.dr.m" GUID="w15frWu9X0Kd20j/P9/V0Q=="/>		
+		<POI MapID="248" xpos="163.455" ypos="83.0583" zpos="234.86" type="jt.dr.m" GUID="ijccuXIepEWbmzjKpdfXBw=="/>
+		<POI MapID="248" xpos="160.389" ypos="83.0583" zpos="241.683" type="jt.dr.m" GUID="rbSPmwXTokec8n0D1+t6TA=="/>
+		<POI MapID="248" xpos="158.139" ypos="83.0583" zpos="249.469" type="jt.dr.m" GUID="kO2QSJh8QUWQcdDgHlZupQ=="/>
+		<POI MapID="248" xpos="127.299" ypos="82.8787" zpos="198.572" type="jt.dr.m" GUID="4z3ZLIK/LEC93as35VdbzA=="/>
+		<POI MapID="248" xpos="127.152" ypos="82.5302" zpos="205.205" type="jt.dr.m" GUID="BrO67smnmESuJUwTFYIEcQ=="/>
+		<POI MapID="248" xpos="135.638" ypos="82.3665" zpos="202.468" type="jt.dr.m" GUID="BIRQIOFxI0G0ZljcmSddGw=="/>
+		<POI MapID="248" xpos="139.295" ypos="82.438" zpos="181.402" type="jt.dr.m" GUID="pOhiPtFWNUyl0Y7SBuURUg=="/>
+		<POI MapID="248" xpos="145.237" ypos="82.3957" zpos="178.246" type="jt.dr.m" GUID="FoTA193BDEyxVLGaaiUafg=="/>
+		<POI MapID="248" xpos="150.06" ypos="82.3352" zpos="175.33" type="jt.dr.m" GUID="3apqrzodMEmbQLY9roIVIw=="/>
+		<POI MapID="248" xpos="180.49" ypos="68.0465" zpos="187.751" type="jt.dr.m" GUID="VkX1STH360e1p5NWm7Fgcg=="/>
+
+		<Trail type="jt.dr.t" trailData="Data/JapyxTrails/Trails/DivinitysReach-Trail.trl"/>
 	</POIs>
 
 </OverlayData>
