@@ -96,6 +96,7 @@
 		<POI MapID="248" xpos="180.49" ypos="68.0465" zpos="187.751" type="jt.dr.m" GUID="VkX1STH360e1p5NWm7Fgcg=="/>
 
 		<Trail type="jt.dr.t" trailData="Data/JapyxTrails/Trails/DivinitysReach-Trail.trl"/>
+		<Trail type="jt.dr.bc" trailData="Data/JapyxTrails/Trails/DivinitysReach-BanditChest.trl"/>
 	</POIs>
 
 </OverlayData>
