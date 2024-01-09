@@ -1,5 +1,13 @@
 <OverlayData>
 	<MarkerCategory name="jt" displayName="Japyx's Trail">
+		<MarkerCategory name="i" displayName="Infos">
+			<MarkerCategory name="t" DisplayName="This pack is not optimized for Glyph of Reaping"/>
+			<MarkerCategory name="t1" DisplayName="If you have it, you can use other spots to go faster"/>
+			<MarkerCategory name="h" DisplayName="Special thanks" isseparator="1"/>
+			<MarkerCategory name="h1" DisplayName="Teh for his Marker Pack Academy"/>
+			<MarkerCategory name="h2" DisplayName="QuitarHero for his help designing this pack"/>
+		</MarkerCategory>
+		<MarkerCategory name="homesep" DisplayName="HOME INSTANCE" isseparator="1"/>
 		<MarkerCategory name="h" displayName="Hoelbrak">
 			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8" miniMapVisibility="0" mapVisibility="0"/>
 			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
@@ -13,6 +21,21 @@
 	</MarkerCategory>
 	
 	<POIs>
+		<!--======================================================================================================-->
+		<!--==                                               INFOS                                              ==-->
+		<!--======================================================================================================-->
+		<POI MapID="375" xpos="103.709" ypos="341.974" zpos="-283.684" type="jt.i.t" ingamevisibility="0"/>
+		<POI MapID="248" xpos="217.142" ypos="75.3244" zpos="162.644" type="jt.i.t" ingamevisibility="0"/>
+
+		<POI MapID="375" xpos="103.709" ypos="341.974" zpos="-283.684" type="jt.i.t1" ingamevisibility="0"/>
+		<POI MapID="248" xpos="217.142" ypos="75.3244" zpos="162.644" type="jt.i.t1" ingamevisibility="0"/>
+
+		<POI MapID="375" xpos="103.709" ypos="341.974" zpos="-283.684" type="jt.i.h1" ingamevisibility="0"/>
+		<POI MapID="248" xpos="217.142" ypos="75.3244" zpos="162.644" type="jt.i.h1" ingamevisibility="0"/>
+
+		<POI MapID="375" xpos="103.709" ypos="341.974" zpos="-283.684" type="jt.i.h2" ingamevisibility="0"/>
+		<POI MapID="248" xpos="217.142" ypos="75.3244" zpos="162.644" type="jt.i.h2" ingamevisibility="0"/>
+
 		<!--======================================================================================================-->
 		<!--==                                             HOELBRAK                                             ==-->
 		<!--======================================================================================================-->
