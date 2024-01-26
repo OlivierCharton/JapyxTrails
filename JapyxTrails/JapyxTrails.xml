@@ -10,6 +10,11 @@
 			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
 			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 		</MarkerCategory>
+		<MarkerCategory name="rs" displayName="Rata Sum">
+			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+		</MarkerCategory>
 	</MarkerCategory>
 	
 	<POIs>
@@ -97,6 +102,52 @@
 
 		<Trail type="jt.dr.t" trailData="Data/JapyxTrails/Trails/DivinitysReach-Trail.trl"/>
 		<Trail type="jt.dr.bc" trailData="Data/JapyxTrails/Trails/DivinitysReach-BanditChest.trl"/>
+
+		<!--======================================================================================================-->
+		<!--==                                             RATA SUM                                             ==-->
+		<!--======================================================================================================-->
+		<POI MapID="650" xpos="-386.035" ypos="335.683" zpos="702.644" type="jt.rs.m" GUID="8v9AeIkS/k2GgJS8+Qw0tg=="/>
+		<POI MapID="650" xpos="-387.605" ypos="335.683" zpos="709.213" type="jt.rs.m" GUID="X1v/xdfExkO3KGIrba2Y8g=="/>
+		<POI MapID="650" xpos="-413.866" ypos="336.055" zpos="715.388" type="jt.rs.m" GUID="GmAYSU4cEk+nkJbY1d6tng=="/>
+		<POI MapID="650" xpos="-436.466" ypos="351.855" zpos="729.959" type="jt.rs.m" GUID="fqpzPTwKEkChyTqNjkTbRw=="/>
+		<POI MapID="650" xpos="-444.343" ypos="351.534" zpos="716.195" type="jt.rs.m" GUID="CCqAlUTWbkeB/J6BS0WdyA=="/>
+		<POI MapID="650" xpos="-457.505" ypos="351.487" zpos="710.65" type="jt.rs.m" GUID="a2oWPxhIc02SYyBqPFgaZQ=="/>
+		<POI MapID="650" xpos="-466.497" ypos="351.473" zpos="709.442" type="jt.rs.m" GUID="lhj80pdTqE2OxD6HCyWbrw=="/>
+		<POI MapID="650" xpos="-463.087" ypos="352.483" zpos="726.139" type="jt.rs.m" GUID="kRQNt43QzEKulJ/vDeNP4Q=="/>
+		<POI MapID="650" xpos="-476.88" ypos="352.404" zpos="728.253" type="jt.rs.m" GUID="ZIfVrISxy0uJhLpDFYRZ0Q=="/>
+		<POI MapID="650" xpos="-483.4" ypos="351.74" zpos="718.869" type="jt.rs.m" GUID="VmU8rfQr8EmajD1nUV/fnw=="/>
+		<POI MapID="650" xpos="-513.418" ypos="333.054" zpos="728.521" type="jt.rs.m" GUID="IAxT91+RE0KjmVHzlkVMgg=="/>
+		<POI MapID="650" xpos="-527.669" ypos="332.485" zpos="716.264" type="jt.rs.m" GUID="OkvQhZlFqUy8sb+g+W7/1w=="/>
+		<POI MapID="650" xpos="-523.527" ypos="331.925" zpos="703.569" type="jt.rs.m" GUID="96yp7ADhGE6r+oT774dvsA=="/>
+		<POI MapID="650" xpos="-532.416" ypos="331.811" zpos="705.733" type="jt.rs.m" GUID="sUjJ2Y8YRk2cGjgI4J38PA=="/>
+		<POI MapID="650" xpos="-540.285" ypos="331.685" zpos="711.117" type="jt.rs.m" GUID="T9NAf6RvMUWVBYIrxHpwmw=="/>
+		<POI MapID="650" xpos="-562.081" ypos="327.066" zpos="713.154" type="jt.rs.m" GUID="pZqdX08+QEe0iwVtE3DpmA=="/>
+		<POI MapID="650" xpos="-566.581" ypos="326.963" zpos="705.448" type="jt.rs.m" GUID="oKsOK9p7o0KUQNYf4QpvgA=="/>
+		<POI MapID="650" xpos="-568.286" ypos="326.963" zpos="692.733" type="jt.rs.m" GUID="EdNw5oq6mU66d5eDb+zBhQ=="/>
+		<POI MapID="650" xpos="-529.183" ypos="327.061" zpos="689.435" type="jt.rs.m" GUID="dIvvji6sxk2OYLHHErnlhw=="/>
+		<POI MapID="650" xpos="-530.553" ypos="327.8" zpos="590.566" type="jt.rs.m" GUID="qUJlcNGdqkyiYhJEOkR56w=="/>
+		<POI MapID="650" xpos="-509.238" ypos="327.549" zpos="613.483" type="jt.rs.m" GUID="7Ln2LnF+/UW8ZNHsnPWIpA=="/>
+		<POI MapID="650" xpos="-546.91" ypos="327.273" zpos="671.217" type="jt.rs.m" GUID="vMRNW1OXD0+6FKTqhcUpmg=="/>
+		<POI MapID="650" xpos="-561.688" ypos="328.932" zpos="581.049" type="jt.rs.m" GUID="S7htCy8Dq0+rtg3L6WYmGg=="/>
+		<POI MapID="650" xpos="-505.012" ypos="327.659" zpos="632.455" type="jt.rs.m" GUID="PIGZef7tKE60i7qqJ2NcOw=="/>
+		<POI MapID="650" xpos="-492.57" ypos="326.966" zpos="645.123" type="jt.rs.m" GUID="3YQ3osuD9UGl0pjnNL18HA=="/>
+		<POI MapID="650" xpos="-484.141" ypos="327.757" zpos="651.233" type="jt.rs.m" GUID="QubmJaP24kqsomz5UZLZUA=="/>
+		<POI MapID="650" xpos="-473.932" ypos="326.946" zpos="660.24" type="jt.rs.m" GUID="5lxyn/ku8UCLhBBGrUc55Q=="/>
+		<POI MapID="650" xpos="-494.783" ypos="326.999" zpos="687.307" type="jt.rs.m" GUID="JwgHTZ+iHkiRJqrgywo3sg=="/>
+		<POI MapID="650" xpos="-487.416" ypos="327.751" zpos="686.096" type="jt.rs.m" GUID="tpPfNJxmnEmxhUJCQ+2wAw=="/>
+		<POI MapID="650" xpos="-462.274" ypos="334.544" zpos="687.924" type="jt.rs.m" GUID="Zx7x40jyvUOCR3lZgCxbYw=="/>
+		<POI MapID="650" xpos="-457.965" ypos="332.454" zpos="674.011" type="jt.rs.m" GUID="lgrOhzufpEaTOYjsQ2MDRg=="/>
+		<POI MapID="650" xpos="-449.563" ypos="335.654" zpos="674.337" type="jt.rs.m" GUID="niUDkwLgZEufe1vcJakrRg=="/>
+		<POI MapID="650" xpos="-440.891" ypos="335.654" zpos="667.57" type="jt.rs.m" GUID="7sjg3adynk2xu9eMHg4nKQ=="/>
+		<POI MapID="650" xpos="-447.028" ypos="338.647" zpos="655.513" type="jt.rs.m" GUID="/ifLHOVMyEy2t0USIZQrjw=="/>
+		<POI MapID="650" xpos="-450.503" ypos="338.647" zpos="644.729" type="jt.rs.m" GUID="J09JLXp2JUeSz5Boul4QOg=="/>
+		<POI MapID="650" xpos="-440.085" ypos="338.575" zpos="647.021" type="jt.rs.m" GUID="6UilfgIU0UC5uw23d+zfeg=="/>
+		<POI MapID="650" xpos="-433.084" ypos="335.653" zpos="657.237" type="jt.rs.m" GUID="9zXvR7zFQ06fFHIXYkc78Q=="/>
+		<POI MapID="650" xpos="-426.451" ypos="335.745" zpos="653.498" type="jt.rs.m" GUID="KZRKFZSNUUa9HwFr6h1kAw=="/>
+
+		<Trail type="jt.rs.t" trailData="Data/JapyxTrails/Trails/RataSum-Trail.trl"/>
+		<Trail type="jt.rs.bc" trailData="Data/JapyxTrails/Trails/RataSum-BanditChest.trl"/>
+
 	</POIs>
 
 </OverlayData>
