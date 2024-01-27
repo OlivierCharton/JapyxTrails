@@ -144,6 +144,7 @@
 		<POI MapID="650" xpos="-440.085" ypos="338.575" zpos="647.021" type="jt.rs.m" GUID="6UilfgIU0UC5uw23d+zfeg=="/>
 		<POI MapID="650" xpos="-433.084" ypos="335.653" zpos="657.237" type="jt.rs.m" GUID="9zXvR7zFQ06fFHIXYkc78Q=="/>
 		<POI MapID="650" xpos="-426.451" ypos="335.745" zpos="653.498" type="jt.rs.m" GUID="KZRKFZSNUUa9HwFr6h1kAw=="/>
+		<POI MapID="650" xpos="-598.016" ypos="326.882" zpos="685.923" type="jt.rs.m" GUID="d6WkGcSk3ku5ZGdms/2RgQ=="/>
 
 		<Trail type="jt.rs.t" trailData="Data/JapyxTrails/Trails/RataSum-Trail.trl"/>
 		<Trail type="jt.rs.bc" trailData="Data/JapyxTrails/Trails/RataSum-BanditChest.trl"/>
