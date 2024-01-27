@@ -1,5 +1,5 @@
 -- List of the map ID's we have markers on in
-Japyx.maps = {375, 248, 650}
+Japyx.maps = {375, 248, 650, 371}
 
 -- Table to store all the important stuff
 Japyx.info = {
