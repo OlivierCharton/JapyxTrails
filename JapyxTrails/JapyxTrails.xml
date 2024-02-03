@@ -20,6 +20,11 @@
 			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
 			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 		</MarkerCategory>
+		<MarkerCategory name="tg" displayName="The Grove">
+			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+		</MarkerCategory>
 	</MarkerCategory>
 	
 	<POIs>
@@ -193,6 +198,47 @@
 
 		<Trail type="jt.bc.t" trailData="Data/JapyxTrails/Trails/BlackCitadel-Trail.trl"/>
 		<Trail type="jt.bc.bc" trailData="Data/JapyxTrails/Trails/BlackCitadel-BanditChest.trl"/>
+
+		<!--======================================================================================================-->
+		<!--==                                             THE GROVE                                            ==-->
+		<!--======================================================================================================-->
+		<POI MapID="647" xpos="79.2827" ypos="1.58842" zpos="38.4386" type="jt.tg.m" GUID="e+4uARKuF0yGvJoge9rLnQ=="/>
+		<POI MapID="647" xpos="84.2713" ypos="2.36527" zpos="48.555" type="jt.tg.m" GUID="2Ev87Tb9XkW7MjHhwt3fCQ=="/>
+		<POI MapID="647" xpos="94.9353" ypos="1.43486" zpos="46.3839" type="jt.tg.m" GUID="hPyU9Yh8+Uyul6lrEmYO0Q=="/>
+		<POI MapID="647" xpos="107.138" ypos="1.98843" zpos="70.4076" type="jt.tg.m" GUID="braDkzzDuEONwNxH09wpeQ=="/>
+		<POI MapID="647" xpos="114.715" ypos="1.39076" zpos="84.4067" type="jt.tg.m" GUID="Z/IOs3aLWUOt4Sr0giNvPg=="/>
+		<POI MapID="647" xpos="110.339" ypos="2.0533" zpos="106.411" type="jt.tg.m" GUID="ddIfKNUZiESQ/4EYi15I+g=="/>
+		<POI MapID="647" xpos="113.759" ypos="0.94192" zpos="115.483" type="jt.tg.m" GUID="jMosNtryuEOWpxPyF93BNw=="/>
+		<POI MapID="647" xpos="119.195" ypos="0.403898" zpos="118.086" type="jt.tg.m" GUID="iw3eCc2fUU+ddZG9b1fLyA=="/>
+		<POI MapID="647" xpos="135.729" ypos="1.36335" zpos="139.539" type="jt.tg.m" GUID="kaY7qqPpJEK4rig3AOY68A=="/>
+		<POI MapID="647" xpos="121.414" ypos="0.42686" zpos="141.47" type="jt.tg.m" GUID="gQNSpdlVDE6I9OE+LBTcmg=="/>
+		<POI MapID="647" xpos="115.798" ypos="0.477873" zpos="135.065" type="jt.tg.m" GUID="QIQUy51ZLkC7nPxw2Ycuwg=="/>
+		<POI MapID="647" xpos="110.142" ypos="0.640805" zpos="125.813" type="jt.tg.m" GUID="8gVxxaCct0CRwjcKfKF7dw=="/>
+		<POI MapID="647" xpos="107.436" ypos="1.0243" zpos="117.968" type="jt.tg.m" GUID="MbWS2N+c/0u989AYvvF2eg=="/>
+		<POI MapID="647" xpos="86.4368" ypos="0.963602" zpos="119.842" type="jt.tg.m" GUID="ApAY4apjMkS+XxDnNFcJ1g=="/>
+		<POI MapID="647" xpos="65.9949" ypos="-7.98944" zpos="121.781" type="jt.tg.m" GUID="gybfFvWegkO9vWVE9iXofw=="/>
+		<POI MapID="647" xpos="57.4707" ypos="0.332214" zpos="103.655" type="jt.tg.m" GUID="eY35ygd300KqKR4yqD1VSw=="/>
+		<POI MapID="647" xpos="76.836" ypos="0.402294" zpos="110.955" type="jt.tg.m" GUID="jeEUYluQ+USuRitZI7QpAA=="/>
+		<POI MapID="647" xpos="83.2557" ypos="2.2173" zpos="103.901" type="jt.tg.m" GUID="tX92fvmKeEuI2ro+AfWn5w=="/>
+		<POI MapID="647" xpos="86.0552" ypos="2.5701" zpos="95.8948" type="jt.tg.m" GUID="A3fRhkw+V0CQQv2aKAGxrQ=="/>
+		<POI MapID="647" xpos="81.548" ypos="4.04863" zpos="89.0875" type="jt.tg.m" GUID="7GTyuXThdEOcDsAHn+7m6Q==" info="Get Difluorite through wall"/>
+		<POI MapID="647" xpos="74.1655" ypos="3.58656" zpos="73.9117" type="jt.tg.m" GUID="nsYt194L+USLgvuYKPJ89w==" info="Get Petrified Stump through wall"/>
+		<POI MapID="647" xpos="66.7552" ypos="1.58138" zpos="81.2904" type="jt.tg.m" GUID="edj6QNz5DUyLbuF5e2o4pA=="/>
+		<POI MapID="647" xpos="45.2383" ypos="2.36991" zpos="121.049" type="jt.tg.m" GUID="jB99mq1W+k697igUzaUTkg=="/>
+		<POI MapID="647" xpos="39.716" ypos="2.37674" zpos="121.685" type="jt.tg.m" GUID="a3oazcISQk260fsElZhz5w=="/>
+		<POI MapID="647" xpos="69.16" ypos="11.7989" zpos="56.083" type="jt.tg.m" GUID="4AybHxaqU0S74BsYdrKP3A=="/>
+		<POI MapID="647" xpos="72.149" ypos="1.62073" zpos="43.2524" type="jt.tg.m" GUID="kCYMiS2CEUOCE9PPipHokg=="/>
+		<POI MapID="647" xpos="67.0152" ypos="1.54747" zpos="44.7602" type="jt.tg.m" GUID="QS3Ml5weMEqZZkgWETU7vQ=="/>
+		<POI MapID="647" xpos="59.3336" ypos="1.86519" zpos="50.2775" type="jt.tg.m" GUID="rogeLBNkUUSaW5k3XcznRA=="/>
+		<POI MapID="647" xpos="41.7837" ypos="31.0614" zpos="55.1572" type="jt.tg.m" GUID="/U6b9rvi+0WXHT9LekrXvg=="/>
+		<POI MapID="647" xpos="41.8979" ypos="30.9985" zpos="49.5828" type="jt.tg.m" GUID="cFov7OhB3k24IqLrgZ2ITA=="/>
+		<POI MapID="647" xpos="47.2994" ypos="31.0658" zpos="49.6215" type="jt.tg.m" GUID="iMaq8ciHZ0WsFVMeHVUgtA=="/>
+		<POI MapID="647" xpos="74.7806" ypos="0.215777" zpos="154.657" type="jt.tg.m" GUID="DiDTKX4Fk0OaMd1nCGzqQQ=="/>
+		<POI MapID="647" xpos="78.9478" ypos="0.148189" zpos="150.388" type="jt.tg.m" GUID="6H1iwLSDnkGVvslbECSmlg=="/>
+
+		<Trail type="jt.tg.t" trailData="Data/JapyxTrails/Trails/TheGrove-Trail.trl"/>
+		<Trail type="jt.tg.bc" trailData="Data/JapyxTrails/Trails/TheGrove-BanditChest.trl"/>
+
 	</POIs>
 
 </OverlayData>
