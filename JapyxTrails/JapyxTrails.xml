@@ -1,29 +1,35 @@
 <OverlayData>
 	<MarkerCategory name="jt" displayName="Japyx's Trail">
-		<MarkerCategory name="h" displayName="Hoelbrak">
-			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8" miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+		<MarkerCategory name="hi" displayName="Home Instance">
+			<MarkerCategory name="h" displayName="Hoelbrak">
+				<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
+			<MarkerCategory name="dr" displayName="Divinity's Reach">
+				<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
+			<MarkerCategory name="rs" displayName="Rata Sum">
+				<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
+			<MarkerCategory name="bc" displayName="Black Citadel">
+				<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
+			<MarkerCategory name="tg" displayName="The Grove">
+				<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 		</MarkerCategory>
-		<MarkerCategory name="dr" displayName="Divinity's Reach">
-			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
-		</MarkerCategory>
-		<MarkerCategory name="rs" displayName="Rata Sum">
-			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
-		</MarkerCategory>
-		<MarkerCategory name="bc" displayName="Black Citadel">
-			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
-		</MarkerCategory>
-		<MarkerCategory name="tg" displayName="The Grove">
-			<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
-			<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+		<MarkerCategory name="bp" displayName="Blooming Passiflora">
+			<MarkerCategory name="sc" displayName="Southsun Cove" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" />
+			<MarkerCategory name="eb" displayName="Ember Bay" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" />
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -31,219 +37,229 @@
 		<!--======================================================================================================-->
 		<!--==                                             HOELBRAK                                             ==-->
 		<!--======================================================================================================-->
-		<POI MapID="375" xpos="103.709" ypos="341.974" zpos="-283.684" type="jt.h.m" GUID="9eFbnu6Bi0Wqnq39t1rp3w=="/>
-		<POI MapID="375" xpos="101.698" ypos="341.974" zpos="-290.532" type="jt.h.m" GUID="YADC61PkiEq6UZYpGtff8Q=="/>
-		<POI MapID="375" xpos="97.4379" ypos="341.974" zpos="-298.839" type="jt.h.m" GUID="atj8QZdJ+02KMBRmYNOMwg=="/>
-		<POI MapID="375" xpos="118.936" ypos="343.3" zpos="-272.851" type="jt.h.m" GUID="wvCLfEmoekmDPq6ARTHJcg=="/>
-		<POI MapID="375" xpos="123.868" ypos="343.302" zpos="-275.028" type="jt.h.m" GUID="2uC8XcMDU0+UUfI3+pvJDw=="/>
-		<POI MapID="375" xpos="131.588" ypos="342.12" zpos="-291.636" type="jt.h.m" GUID="PPc14Z2frEyKlLA+EKoRuQ=="/>
-		<POI MapID="375" xpos="123.69" ypos="342.128" zpos="-307.496" type="jt.h.m" GUID="lViOTPcyLkaK7dJrPC7PWA==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
-		<POI MapID="375" xpos="116.461" ypos="342.151" zpos="-309.164" type="jt.h.m" GUID="3JAQRRQ6lUO9+stxwq7V4g=="/>
-		<POI MapID="375" xpos="96.8723" ypos="342.179" zpos="-335.288" type="jt.h.m" GUID="r+8kkrWwlk22NknJ4Fr2Tw=="/>
-		<POI MapID="375" xpos="83.7793" ypos="342.179" zpos="-329.331" type="jt.h.m" GUID="odV+PFaBqkCUwITj6L1/PQ=="/>
-		<POI MapID="375" xpos="67.4902" ypos="342.179" zpos="-321.603" type="jt.h.m" GUID="ulo/aOVXKkidO7EZ8g7mUQ=="/>
-		<POI MapID="375" xpos="56.5452" ypos="341.974" zpos="-327.802" type="jt.h.m" GUID="BA4qriZZSkquRKhACfgZug=="/>
-		<POI MapID="375" xpos="50.0694" ypos="341.975" zpos="-336.846" type="jt.h.m" GUID="/CLtsGbvME+i/wWAX57blA=="/>
-		<POI MapID="375" xpos="41.9096" ypos="342.002" zpos="-352.094" type="jt.h.m" GUID="AD73SzNnKUmv75IUVh2idA=="/>
-		<POI MapID="375" xpos="-21.78982" ypos="342.0127" zpos="-350.223" type="jt.h.m" GUID="X7Kt7Ghz7kGiY3mzU144MA=="/>
-		<POI MapID="375" xpos="77.6879" ypos="341.98" zpos="-369.801" type="jt.h.m" GUID="Dcf9kkX6MESxhOb+IG0OAA=="/>
-		<POI MapID="375" xpos="66.4599" ypos="341.979" zpos="-387.557" type="jt.h.m" GUID="rX5dsOJczk+DuY41mst0iQ=="/>
-		<POI MapID="375" xpos="29.8419" ypos="342.017" zpos="-377.133" type="jt.h.m" GUID="ALNZQvR5ikS6Y0pZDcJMsA=="/>
-		<POI MapID="375" xpos="-28.6909" ypos="342.004" zpos="-338.838" type="jt.h.m" GUID="Dnkw0YHjfkizgnSceEl1rw=="/>
-		<POI MapID="375" xpos="-36.0712" ypos="341.984" zpos="-298.22" type="jt.h.m" GUID="O1ofppCJDEq1LJEJXCHopQ=="/>
-		<POI MapID="375" xpos="-22.5258" ypos="342.181" zpos="-273.928" type="jt.h.m" GUID="4a/akw5Hs0u+SmKs8Ku1dg=="/>
-		<POI MapID="375" xpos="12.1699" ypos="341.971" zpos="-247.033" type="jt.h.m" GUID="3gORLFA1sU2dbU48N6+Ubg=="/>
-		<POI MapID="375" xpos="-12.3565" ypos="341.971" zpos="-233.929" type="jt.h.m" GUID="lXVwyIXF5kibwNBrK2VeMQ=="/>
-		<POI MapID="375" xpos="5.18558" ypos="341.971" zpos="-213.422" type="jt.h.m" GUID="DcRCmD+D40S1OoUgcgySsA=="/>
-		<POI MapID="375" xpos="13.8321" ypos="341.971" zpos="-218.175" type="jt.h.m" GUID="mt+gAJB1xEaQzVs21TN5pg=="/>
-		<POI MapID="375" xpos="21.1414" ypos="341.971" zpos="-222.19" type="jt.h.m" GUID="eJEhNdHcxEeL7G8aLcEOcg=="/>
-		<POI MapID="375" xpos="34.9296" ypos="341.971" zpos="-240.352" type="jt.h.m" GUID="GC24NXgMBkOOHrFzmMk5MQ=="/>
-		<POI MapID="375" xpos="32.3394" ypos="341.971" zpos="-246.112" type="jt.h.m" GUID="X3UAgkkmM0WfzQF5aIXw0Q=="/>
-		<POI MapID="375" xpos="23.0727" ypos="342.179" zpos="-260.199" type="jt.h.m" GUID="lyFf+d9BrUaXBVmJR4y1gg=="/>
-		<POI MapID="375" xpos="20.8664" ypos="341.971" zpos="-271.248" type="jt.h.m" GUID="70MgOoTTekqTk1WYtgs9Eg=="/>
-		<POI MapID="375" xpos="-25.3648" ypos="373.048" zpos="-291.959" type="jt.h.m" GUID="W7P40N2PDESufgEe6zXs0Q=="/>
-		<POI MapID="375" xpos="-23.3659" ypos="373.047" zpos="-287.632" type="jt.h.m" GUID="3kEeWairK0unUff2BCCgOQ=="/>
-		<POI MapID="375" xpos="111.839" ypos="374.645" zpos="-272.987" type="jt.h.m" GUID="At4258FWV0eOD1JqHcl1Cg=="/>
-		<POI MapID="375" xpos="120.087" ypos="374.644" zpos="-274.501" type="jt.h.m" GUID="w6ykxQBS/EKQ22bGPFVUFg=="/>
-		<POI MapID="375" xpos="126.28" ypos="374.618" zpos="-280.214" type="jt.h.m" GUID="BBVWK22B/k+bw4mTvN8eaw=="/>
+		<POI MapID="375" xpos="103.709" ypos="341.974" zpos="-283.684" type="jt.hi.h.m" GUID="9eFbnu6Bi0Wqnq39t1rp3w=="/>
+		<POI MapID="375" xpos="101.698" ypos="341.974" zpos="-290.532" type="jt.hi.h.m" GUID="YADC61PkiEq6UZYpGtff8Q=="/>
+		<POI MapID="375" xpos="97.4379" ypos="341.974" zpos="-298.839" type="jt.hi.h.m" GUID="atj8QZdJ+02KMBRmYNOMwg=="/>
+		<POI MapID="375" xpos="118.936" ypos="343.3" zpos="-272.851" type="jt.hi.h.m" GUID="wvCLfEmoekmDPq6ARTHJcg=="/>
+		<POI MapID="375" xpos="123.868" ypos="343.302" zpos="-275.028" type="jt.hi.h.m" GUID="2uC8XcMDU0+UUfI3+pvJDw=="/>
+		<POI MapID="375" xpos="131.588" ypos="342.12" zpos="-291.636" type="jt.hi.h.m" GUID="PPc14Z2frEyKlLA+EKoRuQ=="/>
+		<POI MapID="375" xpos="123.69" ypos="342.128" zpos="-307.496" type="jt.hi.h.m" GUID="lViOTPcyLkaK7dJrPC7PWA==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
+		<POI MapID="375" xpos="116.461" ypos="342.151" zpos="-309.164" type="jt.hi.h.m" GUID="3JAQRRQ6lUO9+stxwq7V4g=="/>
+		<POI MapID="375" xpos="96.8723" ypos="342.179" zpos="-335.288" type="jt.hi.h.m" GUID="r+8kkrWwlk22NknJ4Fr2Tw=="/>
+		<POI MapID="375" xpos="83.7793" ypos="342.179" zpos="-329.331" type="jt.hi.h.m" GUID="odV+PFaBqkCUwITj6L1/PQ=="/>
+		<POI MapID="375" xpos="67.4902" ypos="342.179" zpos="-321.603" type="jt.hi.h.m" GUID="ulo/aOVXKkidO7EZ8g7mUQ=="/>
+		<POI MapID="375" xpos="56.5452" ypos="341.974" zpos="-327.802" type="jt.hi.h.m" GUID="BA4qriZZSkquRKhACfgZug=="/>
+		<POI MapID="375" xpos="50.0694" ypos="341.975" zpos="-336.846" type="jt.hi.h.m" GUID="/CLtsGbvME+i/wWAX57blA=="/>
+		<POI MapID="375" xpos="41.9096" ypos="342.002" zpos="-352.094" type="jt.hi.h.m" GUID="AD73SzNnKUmv75IUVh2idA=="/>
+		<POI MapID="375" xpos="-21.78982" ypos="342.0127" zpos="-350.223" type="jt.hi.h.m" GUID="X7Kt7Ghz7kGiY3mzU144MA=="/>
+		<POI MapID="375" xpos="77.6879" ypos="341.98" zpos="-369.801" type="jt.hi.h.m" GUID="Dcf9kkX6MESxhOb+IG0OAA=="/>
+		<POI MapID="375" xpos="66.4599" ypos="341.979" zpos="-387.557" type="jt.hi.h.m" GUID="rX5dsOJczk+DuY41mst0iQ=="/>
+		<POI MapID="375" xpos="29.8419" ypos="342.017" zpos="-377.133" type="jt.hi.h.m" GUID="ALNZQvR5ikS6Y0pZDcJMsA=="/>
+		<POI MapID="375" xpos="-28.6909" ypos="342.004" zpos="-338.838" type="jt.hi.h.m" GUID="Dnkw0YHjfkizgnSceEl1rw=="/>
+		<POI MapID="375" xpos="-36.0712" ypos="341.984" zpos="-298.22" type="jt.hi.h.m" GUID="O1ofppCJDEq1LJEJXCHopQ=="/>
+		<POI MapID="375" xpos="-22.5258" ypos="342.181" zpos="-273.928" type="jt.hi.h.m" GUID="4a/akw5Hs0u+SmKs8Ku1dg=="/>
+		<POI MapID="375" xpos="12.1699" ypos="341.971" zpos="-247.033" type="jt.hi.h.m" GUID="3gORLFA1sU2dbU48N6+Ubg=="/>
+		<POI MapID="375" xpos="-12.3565" ypos="341.971" zpos="-233.929" type="jt.hi.h.m" GUID="lXVwyIXF5kibwNBrK2VeMQ=="/>
+		<POI MapID="375" xpos="5.18558" ypos="341.971" zpos="-213.422" type="jt.hi.h.m" GUID="DcRCmD+D40S1OoUgcgySsA=="/>
+		<POI MapID="375" xpos="13.8321" ypos="341.971" zpos="-218.175" type="jt.hi.h.m" GUID="mt+gAJB1xEaQzVs21TN5pg=="/>
+		<POI MapID="375" xpos="21.1414" ypos="341.971" zpos="-222.19" type="jt.hi.h.m" GUID="eJEhNdHcxEeL7G8aLcEOcg=="/>
+		<POI MapID="375" xpos="34.9296" ypos="341.971" zpos="-240.352" type="jt.hi.h.m" GUID="GC24NXgMBkOOHrFzmMk5MQ=="/>
+		<POI MapID="375" xpos="32.3394" ypos="341.971" zpos="-246.112" type="jt.hi.h.m" GUID="X3UAgkkmM0WfzQF5aIXw0Q=="/>
+		<POI MapID="375" xpos="23.0727" ypos="342.179" zpos="-260.199" type="jt.hi.h.m" GUID="lyFf+d9BrUaXBVmJR4y1gg=="/>
+		<POI MapID="375" xpos="20.8664" ypos="341.971" zpos="-271.248" type="jt.hi.h.m" GUID="70MgOoTTekqTk1WYtgs9Eg=="/>
+		<POI MapID="375" xpos="-25.3648" ypos="373.048" zpos="-291.959" type="jt.hi.h.m" GUID="W7P40N2PDESufgEe6zXs0Q=="/>
+		<POI MapID="375" xpos="-23.3659" ypos="373.047" zpos="-287.632" type="jt.hi.h.m" GUID="3kEeWairK0unUff2BCCgOQ=="/>
+		<POI MapID="375" xpos="111.839" ypos="374.645" zpos="-272.987" type="jt.hi.h.m" GUID="At4258FWV0eOD1JqHcl1Cg=="/>
+		<POI MapID="375" xpos="120.087" ypos="374.644" zpos="-274.501" type="jt.hi.h.m" GUID="w6ykxQBS/EKQ22bGPFVUFg=="/>
+		<POI MapID="375" xpos="126.28" ypos="374.618" zpos="-280.214" type="jt.hi.h.m" GUID="BBVWK22B/k+bw4mTvN8eaw=="/>
 
-		<POI MapID="375" xpos="34.3523" ypos="342.179" zpos="-231.07" type="jt.h.m" GUID="6Ver22NYjE2XRVGj+lLnpg==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Do not exit !"/>
+		<POI MapID="375" xpos="34.3523" ypos="342.179" zpos="-231.07" type="jt.hi.h.m" GUID="6Ver22NYjE2XRVGj+lLnpg==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Do not exit !"/>
 
-		<Trail type="jt.h.t" trailData="Data/JapyxTrails/Trails/Hoelbrak-Trail.trl"/>
-		<Trail type="jt.h.bc" trailData="Data/JapyxTrails/Trails/Hoelbrak-BanditChest.trl"/>
+		<Trail type="jt.hi.h.t" trailData="Data/JapyxTrails/Trails/Hoelbrak-Trail.trl"/>
+		<Trail type="jt.hi.h.bc" trailData="Data/JapyxTrails/Trails/Hoelbrak-BanditChest.trl"/>
 
 		<!--======================================================================================================-->
 		<!--==                                         DIVINITY'S REACH                                         ==-->
 		<!--======================================================================================================-->
-		<POI MapID="248" xpos="217.1324" ypos="75.32436" zpos="164.0205" type="jt.dr.m" GUID="6O1SfhJmmkyFmGlxuQRQmw=="/>
-		<POI MapID="248" xpos="230.008" ypos="76.2206" zpos="165.999" type="jt.dr.m" GUID="mJyyfXplCUqF3wAH3YAUpQ=="/>
-		<POI MapID="248" xpos="216.733" ypos="75.3245" zpos="170.746" type="jt.dr.m" GUID="0pgJIri+yUKtHi9qC5NnfQ=="/>
-		<POI MapID="248" xpos="216.147" ypos="76.3686" zpos="181.235" type="jt.dr.m" GUID="WacikaH3nUWfzQzMWLH3mw=="/>
-		<POI MapID="248" xpos="222.476" ypos="75.2728" zpos="181.289" type="jt.dr.m" GUID="hLf6K0uotEiLLmVJxCe/CQ==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
-		<POI MapID="248" xpos="232.794" ypos="75.3267" zpos="181.765" type="jt.dr.m" GUID="DUW7ZbQWck2QQIQk37PvDA=="/>
-		<POI MapID="248" xpos="267.55" ypos="67.7865" zpos="189.422" type="jt.dr.m" GUID="QfvTJKKPMEqs9vzG4gvmhQ=="/>
-		<POI MapID="248" xpos="264.627" ypos="68.668" zpos="197.603" type="jt.dr.m" GUID="+OHk6s/1K02gtAwnGPeaxQ=="/>
-		<POI MapID="248" xpos="275.922" ypos="69.2476" zpos="214.94" type="jt.dr.m" GUID="/aIsjEDEkEKcQ4hYjN4REw=="/>
-		<POI MapID="248" xpos="293.827" ypos="61.1594" zpos="235.741" type="jt.dr.m" GUID="WoQXMj6EaUqhAACt2UlUIQ==" info="Select Salvage Pile or move further to prevent skritt from blocking interaction"/>
-		<POI MapID="248" xpos="289.266" ypos="62.4922" zpos="252.919" type="jt.dr.m" GUID="+Tgj0ShFtUKjSdjETcVMJw=="/>
-		<POI MapID="248" xpos="297.806" ypos="63.3098" zpos="265.6" type="jt.dr.m" GUID="QyTxmaHnZUeMnNvGBCz1qg=="/>
-		<POI MapID="248" xpos="290.578" ypos="63.7554" zpos="276.153" type="jt.dr.m" GUID="iEvltVYpQEadlRhWkLEIWA=="/>
-		<POI MapID="248" xpos="257.335" ypos="69.1874" zpos="253.45" type="jt.dr.m" GUID="phk4aLuTtUK7qU7cNVXVkg=="/>
-		<POI MapID="248" xpos="239.853" ypos="69.664" zpos="242.319" type="jt.dr.m" GUID="N1hI+5Edx0WStNpHfgzhfg=="/>
-		<POI MapID="248" xpos="241.291" ypos="70.2654" zpos="238.068" type="jt.dr.m" GUID="UgwzmauK10eATXIHUwTlcw=="/>
-		<POI MapID="248" xpos="237.774" ypos="69.5535" zpos="236.225" type="jt.dr.m" GUID="q6/p7xZJq0CQgn2oW9omJQ=="/>
-		<POI MapID="248" xpos="240.039" ypos="70.0392" zpos="226.788" type="jt.dr.m" GUID="3EqpaEWCrkG1PWKHFRkFhQ==" info="Select Kournan Cache while harvesting to allow quick loot"/>
-		<POI MapID="248" xpos="241.917" ypos="69.3758" zpos="209.74" type="jt.dr.m" GUID="16GObecaakybEl8o1PmQJA=="/>
-		<POI MapID="248" xpos="224.665" ypos="70.1252" zpos="225.928" type="jt.dr.m" GUID="z5i6cIUNx0KJC0Y7kC4wWA=="/>
-		<POI MapID="248" xpos="209.455" ypos="69.2777" zpos="241.903" type="jt.dr.m" GUID="TNyUvtjfuEmr0Nh4HqGl3w=="/>
-		<POI MapID="248" xpos="185.722" ypos="71.7092" zpos="241.733" type="jt.dr.m" GUID="WpIi8gjIEESI/WLHNrTXGw=="/>
-		<POI MapID="248" xpos="199.393" ypos="70.01" zpos="255.908" type="jt.dr.m" GUID="eDTfDlXsE0OMnK6T01UEgw=="/>
-		<POI MapID="248" xpos="193.541" ypos="71.7726" zpos="273.542" type="jt.dr.m" GUID="w15frWu9X0Kd20j/P9/V0Q=="/>		
-		<POI MapID="248" xpos="163.455" ypos="83.0583" zpos="234.86" type="jt.dr.m" GUID="ijccuXIepEWbmzjKpdfXBw=="/>
-		<POI MapID="248" xpos="160.389" ypos="83.0583" zpos="241.683" type="jt.dr.m" GUID="rbSPmwXTokec8n0D1+t6TA=="/>
-		<POI MapID="248" xpos="158.139" ypos="83.0583" zpos="249.469" type="jt.dr.m" GUID="kO2QSJh8QUWQcdDgHlZupQ=="/>
-		<POI MapID="248" xpos="127.299" ypos="82.8787" zpos="198.572" type="jt.dr.m" GUID="4z3ZLIK/LEC93as35VdbzA=="/>
-		<POI MapID="248" xpos="127.152" ypos="82.5302" zpos="205.205" type="jt.dr.m" GUID="BrO67smnmESuJUwTFYIEcQ=="/>
-		<POI MapID="248" xpos="135.638" ypos="82.3665" zpos="202.468" type="jt.dr.m" GUID="BIRQIOFxI0G0ZljcmSddGw=="/>
-		<POI MapID="248" xpos="139.295" ypos="82.438" zpos="181.402" type="jt.dr.m" GUID="pOhiPtFWNUyl0Y7SBuURUg=="/>
-		<POI MapID="248" xpos="145.237" ypos="82.3957" zpos="178.246" type="jt.dr.m" GUID="FoTA193BDEyxVLGaaiUafg=="/>
-		<POI MapID="248" xpos="150.06" ypos="82.3352" zpos="175.33" type="jt.dr.m" GUID="3apqrzodMEmbQLY9roIVIw=="/>
-		<POI MapID="248" xpos="180.49" ypos="68.0465" zpos="187.751" type="jt.dr.m" GUID="VkX1STH360e1p5NWm7Fgcg=="/>
+		<POI MapID="248" xpos="217.1324" ypos="75.32436" zpos="164.0205" type="jt.hi.dr.m" GUID="6O1SfhJmmkyFmGlxuQRQmw=="/>
+		<POI MapID="248" xpos="230.008" ypos="76.2206" zpos="165.999" type="jt.hi.dr.m" GUID="mJyyfXplCUqF3wAH3YAUpQ=="/>
+		<POI MapID="248" xpos="216.733" ypos="75.3245" zpos="170.746" type="jt.hi.dr.m" GUID="0pgJIri+yUKtHi9qC5NnfQ=="/>
+		<POI MapID="248" xpos="216.147" ypos="76.3686" zpos="181.235" type="jt.hi.dr.m" GUID="WacikaH3nUWfzQzMWLH3mw=="/>
+		<POI MapID="248" xpos="222.476" ypos="75.2728" zpos="181.289" type="jt.hi.dr.m" GUID="hLf6K0uotEiLLmVJxCe/CQ==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
+		<POI MapID="248" xpos="232.794" ypos="75.3267" zpos="181.765" type="jt.hi.dr.m" GUID="DUW7ZbQWck2QQIQk37PvDA=="/>
+		<POI MapID="248" xpos="267.55" ypos="67.7865" zpos="189.422" type="jt.hi.dr.m" GUID="QfvTJKKPMEqs9vzG4gvmhQ=="/>
+		<POI MapID="248" xpos="264.627" ypos="68.668" zpos="197.603" type="jt.hi.dr.m" GUID="+OHk6s/1K02gtAwnGPeaxQ=="/>
+		<POI MapID="248" xpos="275.922" ypos="69.2476" zpos="214.94" type="jt.hi.dr.m" GUID="/aIsjEDEkEKcQ4hYjN4REw=="/>
+		<POI MapID="248" xpos="293.827" ypos="61.1594" zpos="235.741" type="jt.hi.dr.m" GUID="WoQXMj6EaUqhAACt2UlUIQ==" info="Select Salvage Pile or move further to prevent skritt from blocking interaction"/>
+		<POI MapID="248" xpos="289.266" ypos="62.4922" zpos="252.919" type="jt.hi.dr.m" GUID="+Tgj0ShFtUKjSdjETcVMJw=="/>
+		<POI MapID="248" xpos="297.806" ypos="63.3098" zpos="265.6" type="jt.hi.dr.m" GUID="QyTxmaHnZUeMnNvGBCz1qg=="/>
+		<POI MapID="248" xpos="290.578" ypos="63.7554" zpos="276.153" type="jt.hi.dr.m" GUID="iEvltVYpQEadlRhWkLEIWA=="/>
+		<POI MapID="248" xpos="257.335" ypos="69.1874" zpos="253.45" type="jt.hi.dr.m" GUID="phk4aLuTtUK7qU7cNVXVkg=="/>
+		<POI MapID="248" xpos="239.853" ypos="69.664" zpos="242.319" type="jt.hi.dr.m" GUID="N1hI+5Edx0WStNpHfgzhfg=="/>
+		<POI MapID="248" xpos="241.291" ypos="70.2654" zpos="238.068" type="jt.hi.dr.m" GUID="UgwzmauK10eATXIHUwTlcw=="/>
+		<POI MapID="248" xpos="237.774" ypos="69.5535" zpos="236.225" type="jt.hi.dr.m" GUID="q6/p7xZJq0CQgn2oW9omJQ=="/>
+		<POI MapID="248" xpos="240.039" ypos="70.0392" zpos="226.788" type="jt.hi.dr.m" GUID="3EqpaEWCrkG1PWKHFRkFhQ==" info="Select Kournan Cache while harvesting to allow quick loot"/>
+		<POI MapID="248" xpos="241.917" ypos="69.3758" zpos="209.74" type="jt.hi.dr.m" GUID="16GObecaakybEl8o1PmQJA=="/>
+		<POI MapID="248" xpos="224.665" ypos="70.1252" zpos="225.928" type="jt.hi.dr.m" GUID="z5i6cIUNx0KJC0Y7kC4wWA=="/>
+		<POI MapID="248" xpos="209.455" ypos="69.2777" zpos="241.903" type="jt.hi.dr.m" GUID="TNyUvtjfuEmr0Nh4HqGl3w=="/>
+		<POI MapID="248" xpos="185.722" ypos="71.7092" zpos="241.733" type="jt.hi.dr.m" GUID="WpIi8gjIEESI/WLHNrTXGw=="/>
+		<POI MapID="248" xpos="199.393" ypos="70.01" zpos="255.908" type="jt.hi.dr.m" GUID="eDTfDlXsE0OMnK6T01UEgw=="/>
+		<POI MapID="248" xpos="193.541" ypos="71.7726" zpos="273.542" type="jt.hi.dr.m" GUID="w15frWu9X0Kd20j/P9/V0Q=="/>		
+		<POI MapID="248" xpos="163.455" ypos="83.0583" zpos="234.86" type="jt.hi.dr.m" GUID="ijccuXIepEWbmzjKpdfXBw=="/>
+		<POI MapID="248" xpos="160.389" ypos="83.0583" zpos="241.683" type="jt.hi.dr.m" GUID="rbSPmwXTokec8n0D1+t6TA=="/>
+		<POI MapID="248" xpos="158.139" ypos="83.0583" zpos="249.469" type="jt.hi.dr.m" GUID="kO2QSJh8QUWQcdDgHlZupQ=="/>
+		<POI MapID="248" xpos="127.299" ypos="82.8787" zpos="198.572" type="jt.hi.dr.m" GUID="4z3ZLIK/LEC93as35VdbzA=="/>
+		<POI MapID="248" xpos="127.152" ypos="82.5302" zpos="205.205" type="jt.hi.dr.m" GUID="BrO67smnmESuJUwTFYIEcQ=="/>
+		<POI MapID="248" xpos="135.638" ypos="82.3665" zpos="202.468" type="jt.hi.dr.m" GUID="BIRQIOFxI0G0ZljcmSddGw=="/>
+		<POI MapID="248" xpos="139.295" ypos="82.438" zpos="181.402" type="jt.hi.dr.m" GUID="pOhiPtFWNUyl0Y7SBuURUg=="/>
+		<POI MapID="248" xpos="145.237" ypos="82.3957" zpos="178.246" type="jt.hi.dr.m" GUID="FoTA193BDEyxVLGaaiUafg=="/>
+		<POI MapID="248" xpos="150.06" ypos="82.3352" zpos="175.33" type="jt.hi.dr.m" GUID="3apqrzodMEmbQLY9roIVIw=="/>
+		<POI MapID="248" xpos="180.49" ypos="68.0465" zpos="187.751" type="jt.hi.dr.m" GUID="VkX1STH360e1p5NWm7Fgcg=="/>
 
-		<Trail type="jt.dr.t" trailData="Data/JapyxTrails/Trails/DivinitysReach-Trail.trl"/>
-		<Trail type="jt.dr.bc" trailData="Data/JapyxTrails/Trails/DivinitysReach-BanditChest.trl"/>
+		<Trail type="jt.hi.dr.t" trailData="Data/JapyxTrails/Trails/DivinitysReach-Trail.trl"/>
+		<Trail type="jt.hi.dr.bc" trailData="Data/JapyxTrails/Trails/DivinitysReach-BanditChest.trl"/>
 
 		<!--======================================================================================================-->
 		<!--==                                             RATA SUM                                             ==-->
 		<!--======================================================================================================-->
-		<POI MapID="650" xpos="-386.035" ypos="335.683" zpos="702.644" type="jt.rs.m" GUID="8v9AeIkS/k2GgJS8+Qw0tg=="/>
-		<POI MapID="650" xpos="-387.605" ypos="335.683" zpos="709.213" type="jt.rs.m" GUID="X1v/xdfExkO3KGIrba2Y8g=="/>
-		<POI MapID="650" xpos="-413.866" ypos="336.055" zpos="715.388" type="jt.rs.m" GUID="GmAYSU4cEk+nkJbY1d6tng=="/>
-		<POI MapID="650" xpos="-436.466" ypos="351.855" zpos="729.959" type="jt.rs.m" GUID="fqpzPTwKEkChyTqNjkTbRw=="/>
-		<POI MapID="650" xpos="-444.343" ypos="351.534" zpos="716.195" type="jt.rs.m" GUID="CCqAlUTWbkeB/J6BS0WdyA=="/>
-		<POI MapID="650" xpos="-457.505" ypos="351.487" zpos="710.65" type="jt.rs.m" GUID="a2oWPxhIc02SYyBqPFgaZQ=="/>
-		<POI MapID="650" xpos="-466.497" ypos="351.473" zpos="709.442" type="jt.rs.m" GUID="lhj80pdTqE2OxD6HCyWbrw=="/>
-		<POI MapID="650" xpos="-463.087" ypos="352.483" zpos="726.139" type="jt.rs.m" GUID="kRQNt43QzEKulJ/vDeNP4Q=="/>
-		<POI MapID="650" xpos="-476.88" ypos="352.404" zpos="728.253" type="jt.rs.m" GUID="ZIfVrISxy0uJhLpDFYRZ0Q=="/>
-		<POI MapID="650" xpos="-483.4" ypos="351.74" zpos="718.869" type="jt.rs.m" GUID="VmU8rfQr8EmajD1nUV/fnw=="/>
-		<POI MapID="650" xpos="-513.418" ypos="333.054" zpos="728.521" type="jt.rs.m" GUID="IAxT91+RE0KjmVHzlkVMgg=="/>
-		<POI MapID="650" xpos="-527.669" ypos="332.485" zpos="716.264" type="jt.rs.m" GUID="OkvQhZlFqUy8sb+g+W7/1w=="/>
-		<POI MapID="650" xpos="-523.527" ypos="331.925" zpos="703.569" type="jt.rs.m" GUID="96yp7ADhGE6r+oT774dvsA=="/>
-		<POI MapID="650" xpos="-532.416" ypos="331.811" zpos="705.733" type="jt.rs.m" GUID="sUjJ2Y8YRk2cGjgI4J38PA=="/>
-		<POI MapID="650" xpos="-540.285" ypos="331.685" zpos="711.117" type="jt.rs.m" GUID="T9NAf6RvMUWVBYIrxHpwmw=="/>
-		<POI MapID="650" xpos="-562.081" ypos="327.066" zpos="713.154" type="jt.rs.m" GUID="pZqdX08+QEe0iwVtE3DpmA=="/>
-		<POI MapID="650" xpos="-566.581" ypos="326.963" zpos="705.448" type="jt.rs.m" GUID="oKsOK9p7o0KUQNYf4QpvgA=="/>
-		<POI MapID="650" xpos="-568.286" ypos="326.963" zpos="692.733" type="jt.rs.m" GUID="EdNw5oq6mU66d5eDb+zBhQ=="/>
-		<POI MapID="650" xpos="-529.183" ypos="327.061" zpos="689.435" type="jt.rs.m" GUID="dIvvji6sxk2OYLHHErnlhw=="/>
-		<POI MapID="650" xpos="-530.553" ypos="327.8" zpos="590.566" type="jt.rs.m" GUID="qUJlcNGdqkyiYhJEOkR56w=="/>
-		<POI MapID="650" xpos="-509.238" ypos="327.549" zpos="613.483" type="jt.rs.m" GUID="7Ln2LnF+/UW8ZNHsnPWIpA=="/>
-		<POI MapID="650" xpos="-546.91" ypos="327.273" zpos="671.217" type="jt.rs.m" GUID="vMRNW1OXD0+6FKTqhcUpmg=="/>
-		<POI MapID="650" xpos="-561.688" ypos="328.932" zpos="581.049" type="jt.rs.m" GUID="S7htCy8Dq0+rtg3L6WYmGg=="/>
-		<POI MapID="650" xpos="-505.012" ypos="327.659" zpos="632.455" type="jt.rs.m" GUID="PIGZef7tKE60i7qqJ2NcOw=="/>
-		<POI MapID="650" xpos="-492.57" ypos="326.966" zpos="645.123" type="jt.rs.m" GUID="3YQ3osuD9UGl0pjnNL18HA=="/>
-		<POI MapID="650" xpos="-484.141" ypos="327.757" zpos="651.233" type="jt.rs.m" GUID="QubmJaP24kqsomz5UZLZUA=="/>
-		<POI MapID="650" xpos="-473.932" ypos="326.946" zpos="660.24" type="jt.rs.m" GUID="5lxyn/ku8UCLhBBGrUc55Q=="/>
-		<POI MapID="650" xpos="-494.783" ypos="326.999" zpos="687.307" type="jt.rs.m" GUID="JwgHTZ+iHkiRJqrgywo3sg=="/>
-		<POI MapID="650" xpos="-487.416" ypos="327.751" zpos="686.096" type="jt.rs.m" GUID="tpPfNJxmnEmxhUJCQ+2wAw=="/>
-		<POI MapID="650" xpos="-462.274" ypos="334.544" zpos="687.924" type="jt.rs.m" GUID="Zx7x40jyvUOCR3lZgCxbYw=="/>
-		<POI MapID="650" xpos="-457.965" ypos="332.454" zpos="674.011" type="jt.rs.m" GUID="lgrOhzufpEaTOYjsQ2MDRg=="/>
-		<POI MapID="650" xpos="-449.563" ypos="335.654" zpos="674.337" type="jt.rs.m" GUID="niUDkwLgZEufe1vcJakrRg=="/>
-		<POI MapID="650" xpos="-440.891" ypos="335.654" zpos="667.57" type="jt.rs.m" GUID="7sjg3adynk2xu9eMHg4nKQ==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
-		<POI MapID="650" xpos="-447.028" ypos="338.647" zpos="655.513" type="jt.rs.m" GUID="/ifLHOVMyEy2t0USIZQrjw=="/>
-		<POI MapID="650" xpos="-450.503" ypos="338.647" zpos="644.729" type="jt.rs.m" GUID="J09JLXp2JUeSz5Boul4QOg=="/>
-		<POI MapID="650" xpos="-440.085" ypos="338.575" zpos="647.021" type="jt.rs.m" GUID="6UilfgIU0UC5uw23d+zfeg=="/>
-		<POI MapID="650" xpos="-433.084" ypos="335.653" zpos="657.237" type="jt.rs.m" GUID="9zXvR7zFQ06fFHIXYkc78Q=="/>
-		<POI MapID="650" xpos="-426.451" ypos="335.745" zpos="653.498" type="jt.rs.m" GUID="KZRKFZSNUUa9HwFr6h1kAw=="/>
-		<POI MapID="650" xpos="-598.016" ypos="326.882" zpos="685.923" type="jt.rs.m" GUID="d6WkGcSk3ku5ZGdms/2RgQ=="/>
-		<POI MapID="650" xpos="-449.239" ypos="335.547" zpos="687.992" type="jt.rs.m" GUID="i3U7f4IoxESrUTf+8QsgoQ=="/>
+		<POI MapID="650" xpos="-386.035" ypos="335.683" zpos="702.644" type="jt.hi.rs.m" GUID="8v9AeIkS/k2GgJS8+Qw0tg=="/>
+		<POI MapID="650" xpos="-387.605" ypos="335.683" zpos="709.213" type="jt.hi.rs.m" GUID="X1v/xdfExkO3KGIrba2Y8g=="/>
+		<POI MapID="650" xpos="-413.866" ypos="336.055" zpos="715.388" type="jt.hi.rs.m" GUID="GmAYSU4cEk+nkJbY1d6tng=="/>
+		<POI MapID="650" xpos="-436.466" ypos="351.855" zpos="729.959" type="jt.hi.rs.m" GUID="fqpzPTwKEkChyTqNjkTbRw=="/>
+		<POI MapID="650" xpos="-444.343" ypos="351.534" zpos="716.195" type="jt.hi.rs.m" GUID="CCqAlUTWbkeB/J6BS0WdyA=="/>
+		<POI MapID="650" xpos="-457.505" ypos="351.487" zpos="710.65" type="jt.hi.rs.m" GUID="a2oWPxhIc02SYyBqPFgaZQ=="/>
+		<POI MapID="650" xpos="-466.497" ypos="351.473" zpos="709.442" type="jt.hi.rs.m" GUID="lhj80pdTqE2OxD6HCyWbrw=="/>
+		<POI MapID="650" xpos="-463.087" ypos="352.483" zpos="726.139" type="jt.hi.rs.m" GUID="kRQNt43QzEKulJ/vDeNP4Q=="/>
+		<POI MapID="650" xpos="-476.88" ypos="352.404" zpos="728.253" type="jt.hi.rs.m" GUID="ZIfVrISxy0uJhLpDFYRZ0Q=="/>
+		<POI MapID="650" xpos="-483.4" ypos="351.74" zpos="718.869" type="jt.hi.rs.m" GUID="VmU8rfQr8EmajD1nUV/fnw=="/>
+		<POI MapID="650" xpos="-513.418" ypos="333.054" zpos="728.521" type="jt.hi.rs.m" GUID="IAxT91+RE0KjmVHzlkVMgg=="/>
+		<POI MapID="650" xpos="-527.669" ypos="332.485" zpos="716.264" type="jt.hi.rs.m" GUID="OkvQhZlFqUy8sb+g+W7/1w=="/>
+		<POI MapID="650" xpos="-523.527" ypos="331.925" zpos="703.569" type="jt.hi.rs.m" GUID="96yp7ADhGE6r+oT774dvsA=="/>
+		<POI MapID="650" xpos="-532.416" ypos="331.811" zpos="705.733" type="jt.hi.rs.m" GUID="sUjJ2Y8YRk2cGjgI4J38PA=="/>
+		<POI MapID="650" xpos="-540.285" ypos="331.685" zpos="711.117" type="jt.hi.rs.m" GUID="T9NAf6RvMUWVBYIrxHpwmw=="/>
+		<POI MapID="650" xpos="-562.081" ypos="327.066" zpos="713.154" type="jt.hi.rs.m" GUID="pZqdX08+QEe0iwVtE3DpmA=="/>
+		<POI MapID="650" xpos="-566.581" ypos="326.963" zpos="705.448" type="jt.hi.rs.m" GUID="oKsOK9p7o0KUQNYf4QpvgA=="/>
+		<POI MapID="650" xpos="-568.286" ypos="326.963" zpos="692.733" type="jt.hi.rs.m" GUID="EdNw5oq6mU66d5eDb+zBhQ=="/>
+		<POI MapID="650" xpos="-529.183" ypos="327.061" zpos="689.435" type="jt.hi.rs.m" GUID="dIvvji6sxk2OYLHHErnlhw=="/>
+		<POI MapID="650" xpos="-530.553" ypos="327.8" zpos="590.566" type="jt.hi.rs.m" GUID="qUJlcNGdqkyiYhJEOkR56w=="/>
+		<POI MapID="650" xpos="-509.238" ypos="327.549" zpos="613.483" type="jt.hi.rs.m" GUID="7Ln2LnF+/UW8ZNHsnPWIpA=="/>
+		<POI MapID="650" xpos="-546.91" ypos="327.273" zpos="671.217" type="jt.hi.rs.m" GUID="vMRNW1OXD0+6FKTqhcUpmg=="/>
+		<POI MapID="650" xpos="-561.688" ypos="328.932" zpos="581.049" type="jt.hi.rs.m" GUID="S7htCy8Dq0+rtg3L6WYmGg=="/>
+		<POI MapID="650" xpos="-505.012" ypos="327.659" zpos="632.455" type="jt.hi.rs.m" GUID="PIGZef7tKE60i7qqJ2NcOw=="/>
+		<POI MapID="650" xpos="-492.57" ypos="326.966" zpos="645.123" type="jt.hi.rs.m" GUID="3YQ3osuD9UGl0pjnNL18HA=="/>
+		<POI MapID="650" xpos="-484.141" ypos="327.757" zpos="651.233" type="jt.hi.rs.m" GUID="QubmJaP24kqsomz5UZLZUA=="/>
+		<POI MapID="650" xpos="-473.932" ypos="326.946" zpos="660.24" type="jt.hi.rs.m" GUID="5lxyn/ku8UCLhBBGrUc55Q=="/>
+		<POI MapID="650" xpos="-494.783" ypos="326.999" zpos="687.307" type="jt.hi.rs.m" GUID="JwgHTZ+iHkiRJqrgywo3sg=="/>
+		<POI MapID="650" xpos="-487.416" ypos="327.751" zpos="686.096" type="jt.hi.rs.m" GUID="tpPfNJxmnEmxhUJCQ+2wAw=="/>
+		<POI MapID="650" xpos="-462.274" ypos="334.544" zpos="687.924" type="jt.hi.rs.m" GUID="Zx7x40jyvUOCR3lZgCxbYw=="/>
+		<POI MapID="650" xpos="-457.965" ypos="332.454" zpos="674.011" type="jt.hi.rs.m" GUID="lgrOhzufpEaTOYjsQ2MDRg=="/>
+		<POI MapID="650" xpos="-449.563" ypos="335.654" zpos="674.337" type="jt.hi.rs.m" GUID="niUDkwLgZEufe1vcJakrRg=="/>
+		<POI MapID="650" xpos="-440.891" ypos="335.654" zpos="667.57" type="jt.hi.rs.m" GUID="7sjg3adynk2xu9eMHg4nKQ==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
+		<POI MapID="650" xpos="-447.028" ypos="338.647" zpos="655.513" type="jt.hi.rs.m" GUID="/ifLHOVMyEy2t0USIZQrjw=="/>
+		<POI MapID="650" xpos="-450.503" ypos="338.647" zpos="644.729" type="jt.hi.rs.m" GUID="J09JLXp2JUeSz5Boul4QOg=="/>
+		<POI MapID="650" xpos="-440.085" ypos="338.575" zpos="647.021" type="jt.hi.rs.m" GUID="6UilfgIU0UC5uw23d+zfeg=="/>
+		<POI MapID="650" xpos="-433.084" ypos="335.653" zpos="657.237" type="jt.hi.rs.m" GUID="9zXvR7zFQ06fFHIXYkc78Q=="/>
+		<POI MapID="650" xpos="-426.451" ypos="335.745" zpos="653.498" type="jt.hi.rs.m" GUID="KZRKFZSNUUa9HwFr6h1kAw=="/>
+		<POI MapID="650" xpos="-598.016" ypos="326.882" zpos="685.923" type="jt.hi.rs.m" GUID="d6WkGcSk3ku5ZGdms/2RgQ=="/>
+		<POI MapID="650" xpos="-449.239" ypos="335.547" zpos="687.992" type="jt.hi.rs.m" GUID="i3U7f4IoxESrUTf+8QsgoQ=="/>
 
-		<Trail type="jt.rs.t" trailData="Data/JapyxTrails/Trails/RataSum-Trail.trl"/>
-		<Trail type="jt.rs.bc" trailData="Data/JapyxTrails/Trails/RataSum-BanditChest.trl"/>
+		<Trail type="jt.hi.rs.t" trailData="Data/JapyxTrails/Trails/RataSum-Trail.trl"/>
+		<Trail type="jt.hi.rs.bc" trailData="Data/JapyxTrails/Trails/RataSum-BanditChest.trl"/>
 
 		<!--======================================================================================================-->
 		<!--==                                          BLACK CITADEL                                           ==-->
 		<!--======================================================================================================-->
-		<POI MapID="371" xpos="282.859" ypos="139.73" zpos="276.174" type="jt.bc.m" GUID="Wv48xfpiiUKePE/Y/qzciA=="/>
-		<POI MapID="371" xpos="278.993" ypos="139.728" zpos="276.21" type="jt.bc.m" GUID="kp+ZKi+6NkOtZGzfoNPY3Q=="/>
-		<POI MapID="371" xpos="274.695" ypos="139.748" zpos="276.248" type="jt.bc.m" GUID="+qiHuWgQZkmo24Loy7nPnQ=="/>
-		<POI MapID="371" xpos="266.229" ypos="136.31" zpos="275.682" type="jt.bc.m" GUID="SQuPjnMfyEyGcG6el/MqKw=="/>
-		<POI MapID="371" xpos="263.318" ypos="135.661" zpos="279.305" type="jt.bc.m" GUID="mOyynP8/dUCKYIGgfwpLXg=="/>
-		<POI MapID="371" xpos="277.294" ypos="131.591" zpos="313.733" type="jt.bc.m" GUID="tSaiaLfU/UqCMXOSc9D5CA=="/>
-		<POI MapID="371" xpos="259.327" ypos="134.84" zpos="312.509" type="jt.bc.m" GUID="/A/eBHN/Nkm5qezkNu7ixg=="/>
-		<POI MapID="371" xpos="254.384" ypos="136.163" zpos="329.672" type="jt.bc.m" GUID="pLA2lZ06EEGYyUTLsqb0Nw=="/>
-		<POI MapID="371" xpos="224.448" ypos="133.724" zpos="408.302" type="jt.bc.m" GUID="aR0rZkfNF0yEr/n5pIhsJA=="/>
-		<POI MapID="371" xpos="242.922" ypos="134.897" zpos="459.942" type="jt.bc.m" GUID="Sm6eVv9tGE+hfUZu2HNFSw=="/>
-		<POI MapID="371" xpos="262.838" ypos="134.075" zpos="474.561" type="jt.bc.m" GUID="lO/nLlf/qEq9mG6lZvoMwQ=="/>
-		<POI MapID="371" xpos="271.343" ypos="131.676" zpos="428.68" type="jt.bc.m" GUID="cn4PKXNo0UqWagFzBm9xwA=="/>
-		<POI MapID="371" xpos="296.105" ypos="130.973" zpos="396.071" type="jt.bc.m" GUID="Yf5wxdDXTUCF0y8OKX0wSw=="/>
-		<POI MapID="371" xpos="305.648" ypos="131.427" zpos="425.538" type="jt.bc.m" GUID="O91Yn0XbrkiHQtBU4IE7Zw=="/>
-		<POI MapID="371" xpos="343.898" ypos="130.622" zpos="417.214" type="jt.bc.m" GUID="cr75okk+7EC6c4o4lKrW5g=="/>
-		<POI MapID="371" xpos="330.847" ypos="134.427" zpos="361.654" type="jt.bc.m" GUID="Gl34rMaUUUaxwPKNVlM8VA=="/>
-		<POI MapID="371" xpos="326.477" ypos="131.426" zpos="345.728" type="jt.bc.m" GUID="rN6E2Lcugke+ARmV5/wwUg=="/>
-		<POI MapID="371" xpos="335.044" ypos="131.46" zpos="327.691" type="jt.bc.m" GUID="BEgsbLs/xk6GGdcfaaHVBg=="/>
-		<POI MapID="371" xpos="343.565" ypos="131.415" zpos="335.779" type="jt.bc.m" GUID="AK5CW3N2+EKDwGHX64eB8A=="/>
-		<POI MapID="371" xpos="357.048" ypos="134.476" zpos="331.21" type="jt.bc.m" GUID="HtCmiKRIrUaaiKLYN760mw=="/>
-		<POI MapID="371" xpos="375.771" ypos="134.429" zpos="334.857" type="jt.bc.m" GUID="C864hKJChk2aCt1KU50mug=="/>
-		<POI MapID="371" xpos="377.83" ypos="134.388" zpos="329.324" type="jt.bc.m" GUID="8Gtw5WHcGk62199tf7+//g=="/>
-		<POI MapID="371" xpos="388.046" ypos="134.36" zpos="319.142" type="jt.bc.m" GUID="IS7OAHruqEyjH/GFVGq/CQ=="/>
-		<POI MapID="371" xpos="392.386" ypos="134.374" zpos="312.181" type="jt.bc.m" GUID="smf5/npLCEqdnQ4SD0t90A=="/>
-		<POI MapID="371" xpos="381.779" ypos="134.415" zpos="293.509" type="jt.bc.m" GUID="jjXGZ7ntFEqw80zV9RXAtA=="/>
-		<POI MapID="371" xpos="374.908" ypos="134.415" zpos="290.702" type="jt.bc.m" GUID="eSu8PPTz2k6zIMwR0V4Tnw=="/>
-		<POI MapID="371" xpos="362.722" ypos="134.415" zpos="289.039" type="jt.bc.m" GUID="Lr8taHqmEU6PaCE9GsGgpw==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
-		<POI MapID="371" xpos="361.047" ypos="132.283" zpos="293.626" type="jt.bc.m" GUID="aMm+Cff9QUSrMo/3XFqBKQ=="/>
-		<POI MapID="371" xpos="344.419" ypos="132.117" zpos="289.296" type="jt.bc.m" GUID="pXpcrUqRp0SP96nfzwdO/w=="/>
-		<POI MapID="371" xpos="340.789" ypos="131.848" zpos="289.928" type="jt.bc.m" GUID="+AicyN8FUES2yX+ShzB6OA=="/>
-		<POI MapID="371" xpos="337.762" ypos="134.796" zpos="273.389" type="jt.bc.m" GUID="K9n+ubTDVUuBhbC9Zv1WRw=="/>
-		<POI MapID="371" xpos="330.064" ypos="131.477" zpos="293.826" type="jt.bc.m" GUID="ONXXQ7LLTUu9ehYPsoV+8g=="/>
-		<POI MapID="371" xpos="343.276" ypos="131.417" zpos="302.69" type="jt.bc.m" GUID="3BD42nObZEC2ZWvx1r5+aQ=="/>
-		<POI MapID="371" xpos="268.8138" ypos="133.7006" zpos="289.3972" type="jt.bc.m" GUID="8YDd17aspUeNSz9nle700A=="/>
+		<POI MapID="371" xpos="282.859" ypos="139.73" zpos="276.174" type="jt.hi.bc.m" GUID="Wv48xfpiiUKePE/Y/qzciA=="/>
+		<POI MapID="371" xpos="278.993" ypos="139.728" zpos="276.21" type="jt.hi.bc.m" GUID="kp+ZKi+6NkOtZGzfoNPY3Q=="/>
+		<POI MapID="371" xpos="274.695" ypos="139.748" zpos="276.248" type="jt.hi.bc.m" GUID="+qiHuWgQZkmo24Loy7nPnQ=="/>
+		<POI MapID="371" xpos="266.229" ypos="136.31" zpos="275.682" type="jt.hi.bc.m" GUID="SQuPjnMfyEyGcG6el/MqKw=="/>
+		<POI MapID="371" xpos="263.318" ypos="135.661" zpos="279.305" type="jt.hi.bc.m" GUID="mOyynP8/dUCKYIGgfwpLXg=="/>
+		<POI MapID="371" xpos="277.294" ypos="131.591" zpos="313.733" type="jt.hi.bc.m" GUID="tSaiaLfU/UqCMXOSc9D5CA=="/>
+		<POI MapID="371" xpos="259.327" ypos="134.84" zpos="312.509" type="jt.hi.bc.m" GUID="/A/eBHN/Nkm5qezkNu7ixg=="/>
+		<POI MapID="371" xpos="254.384" ypos="136.163" zpos="329.672" type="jt.hi.bc.m" GUID="pLA2lZ06EEGYyUTLsqb0Nw=="/>
+		<POI MapID="371" xpos="224.448" ypos="133.724" zpos="408.302" type="jt.hi.bc.m" GUID="aR0rZkfNF0yEr/n5pIhsJA=="/>
+		<POI MapID="371" xpos="242.922" ypos="134.897" zpos="459.942" type="jt.hi.bc.m" GUID="Sm6eVv9tGE+hfUZu2HNFSw=="/>
+		<POI MapID="371" xpos="262.838" ypos="134.075" zpos="474.561" type="jt.hi.bc.m" GUID="lO/nLlf/qEq9mG6lZvoMwQ=="/>
+		<POI MapID="371" xpos="271.343" ypos="131.676" zpos="428.68" type="jt.hi.bc.m" GUID="cn4PKXNo0UqWagFzBm9xwA=="/>
+		<POI MapID="371" xpos="296.105" ypos="130.973" zpos="396.071" type="jt.hi.bc.m" GUID="Yf5wxdDXTUCF0y8OKX0wSw=="/>
+		<POI MapID="371" xpos="305.648" ypos="131.427" zpos="425.538" type="jt.hi.bc.m" GUID="O91Yn0XbrkiHQtBU4IE7Zw=="/>
+		<POI MapID="371" xpos="343.898" ypos="130.622" zpos="417.214" type="jt.hi.bc.m" GUID="cr75okk+7EC6c4o4lKrW5g=="/>
+		<POI MapID="371" xpos="330.847" ypos="134.427" zpos="361.654" type="jt.hi.bc.m" GUID="Gl34rMaUUUaxwPKNVlM8VA=="/>
+		<POI MapID="371" xpos="326.477" ypos="131.426" zpos="345.728" type="jt.hi.bc.m" GUID="rN6E2Lcugke+ARmV5/wwUg=="/>
+		<POI MapID="371" xpos="335.044" ypos="131.46" zpos="327.691" type="jt.hi.bc.m" GUID="BEgsbLs/xk6GGdcfaaHVBg=="/>
+		<POI MapID="371" xpos="343.565" ypos="131.415" zpos="335.779" type="jt.hi.bc.m" GUID="AK5CW3N2+EKDwGHX64eB8A=="/>
+		<POI MapID="371" xpos="357.048" ypos="134.476" zpos="331.21" type="jt.hi.bc.m" GUID="HtCmiKRIrUaaiKLYN760mw=="/>
+		<POI MapID="371" xpos="375.771" ypos="134.429" zpos="334.857" type="jt.hi.bc.m" GUID="C864hKJChk2aCt1KU50mug=="/>
+		<POI MapID="371" xpos="377.83" ypos="134.388" zpos="329.324" type="jt.hi.bc.m" GUID="8Gtw5WHcGk62199tf7+//g=="/>
+		<POI MapID="371" xpos="388.046" ypos="134.36" zpos="319.142" type="jt.hi.bc.m" GUID="IS7OAHruqEyjH/GFVGq/CQ=="/>
+		<POI MapID="371" xpos="392.386" ypos="134.374" zpos="312.181" type="jt.hi.bc.m" GUID="smf5/npLCEqdnQ4SD0t90A=="/>
+		<POI MapID="371" xpos="381.779" ypos="134.415" zpos="293.509" type="jt.hi.bc.m" GUID="jjXGZ7ntFEqw80zV9RXAtA=="/>
+		<POI MapID="371" xpos="374.908" ypos="134.415" zpos="290.702" type="jt.hi.bc.m" GUID="eSu8PPTz2k6zIMwR0V4Tnw=="/>
+		<POI MapID="371" xpos="362.722" ypos="134.415" zpos="289.039" type="jt.hi.bc.m" GUID="Lr8taHqmEU6PaCE9GsGgpw==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
+		<POI MapID="371" xpos="361.047" ypos="132.283" zpos="293.626" type="jt.hi.bc.m" GUID="aMm+Cff9QUSrMo/3XFqBKQ=="/>
+		<POI MapID="371" xpos="344.419" ypos="132.117" zpos="289.296" type="jt.hi.bc.m" GUID="pXpcrUqRp0SP96nfzwdO/w=="/>
+		<POI MapID="371" xpos="340.789" ypos="131.848" zpos="289.928" type="jt.hi.bc.m" GUID="+AicyN8FUES2yX+ShzB6OA=="/>
+		<POI MapID="371" xpos="337.762" ypos="134.796" zpos="273.389" type="jt.hi.bc.m" GUID="K9n+ubTDVUuBhbC9Zv1WRw=="/>
+		<POI MapID="371" xpos="330.064" ypos="131.477" zpos="293.826" type="jt.hi.bc.m" GUID="ONXXQ7LLTUu9ehYPsoV+8g=="/>
+		<POI MapID="371" xpos="343.276" ypos="131.417" zpos="302.69" type="jt.hi.bc.m" GUID="3BD42nObZEC2ZWvx1r5+aQ=="/>
+		<POI MapID="371" xpos="268.8138" ypos="133.7006" zpos="289.3972" type="jt.hi.bc.m" GUID="8YDd17aspUeNSz9nle700A=="/>
 
-		<Trail type="jt.bc.t" trailData="Data/JapyxTrails/Trails/BlackCitadel-Trail.trl"/>
-		<Trail type="jt.bc.bc" trailData="Data/JapyxTrails/Trails/BlackCitadel-BanditChest.trl"/>
+		<Trail type="jt.hi.bc.t" trailData="Data/JapyxTrails/Trails/BlackCitadel-Trail.trl"/>
+		<Trail type="jt.hi.bc.bc" trailData="Data/JapyxTrails/Trails/BlackCitadel-BanditChest.trl"/>
 
 		<!--======================================================================================================-->
 		<!--==                                             THE GROVE                                            ==-->
 		<!--======================================================================================================-->
-		<POI MapID="647" xpos="79.2827" ypos="1.58842" zpos="38.4386" type="jt.tg.m" GUID="e+4uARKuF0yGvJoge9rLnQ=="/>
-		<POI MapID="647" xpos="84.2713" ypos="2.36527" zpos="48.555" type="jt.tg.m" GUID="2Ev87Tb9XkW7MjHhwt3fCQ=="/>
-		<POI MapID="647" xpos="94.9353" ypos="1.43486" zpos="46.3839" type="jt.tg.m" GUID="hPyU9Yh8+Uyul6lrEmYO0Q=="/>
-		<POI MapID="647" xpos="107.138" ypos="1.98843" zpos="70.4076" type="jt.tg.m" GUID="braDkzzDuEONwNxH09wpeQ=="/>
-		<POI MapID="647" xpos="115.798" ypos="0.477873" zpos="135.065" type="jt.tg.m" GUID="QIQUy51ZLkC7nPxw2Ycuwg=="/>
-		<POI MapID="647" xpos="110.339" ypos="2.0533" zpos="106.411" type="jt.tg.m" GUID="ddIfKNUZiESQ/4EYi15I+g=="/>
-		<POI MapID="647" xpos="113.759" ypos="0.94192" zpos="115.483" type="jt.tg.m" GUID="jMosNtryuEOWpxPyF93BNw=="/>
-		<POI MapID="647" xpos="119.195" ypos="0.403898" zpos="118.086" type="jt.tg.m" GUID="iw3eCc2fUU+ddZG9b1fLyA=="/>
-		<POI MapID="647" xpos="135.729" ypos="1.36335" zpos="139.539" type="jt.tg.m" GUID="kaY7qqPpJEK4rig3AOY68A=="/>
-		<POI MapID="647" xpos="121.414" ypos="0.42686" zpos="141.47" type="jt.tg.m" GUID="gQNSpdlVDE6I9OE+LBTcmg=="/>
-		<POI MapID="647" xpos="114.363" ypos="1.29806" zpos="86.0919" type="jt.tg.m" GUID="qBfabMDSkku3QreSsDLH+g=="/>
-		<POI MapID="647" xpos="110.142" ypos="0.640805" zpos="125.813" type="jt.tg.m" GUID="8gVxxaCct0CRwjcKfKF7dw=="/>
-		<POI MapID="647" xpos="107.436" ypos="1.0243" zpos="117.968" type="jt.tg.m" GUID="MbWS2N+c/0u989AYvvF2eg=="/>
-		<POI MapID="647" xpos="86.4368" ypos="0.963602" zpos="119.842" type="jt.tg.m" GUID="ApAY4apjMkS+XxDnNFcJ1g=="/>
-		<POI MapID="647" xpos="65.9949" ypos="-7.98944" zpos="121.781" type="jt.tg.m" GUID="gybfFvWegkO9vWVE9iXofw=="/>
-		<POI MapID="647" xpos="57.4707" ypos="0.332214" zpos="103.655" type="jt.tg.m" GUID="eY35ygd300KqKR4yqD1VSw=="/>
-		<POI MapID="647" xpos="76.836" ypos="0.402294" zpos="110.955" type="jt.tg.m" GUID="jeEUYluQ+USuRitZI7QpAA=="/>
-		<POI MapID="647" xpos="83.2557" ypos="2.2173" zpos="103.901" type="jt.tg.m" GUID="tX92fvmKeEuI2ro+AfWn5w=="/>
-		<POI MapID="647" xpos="86.0552" ypos="2.5701" zpos="95.8948" type="jt.tg.m" GUID="A3fRhkw+V0CQQv2aKAGxrQ=="/>
-		<POI MapID="647" xpos="81.548" ypos="4.04863" zpos="89.0875" type="jt.tg.m" GUID="7GTyuXThdEOcDsAHn+7m6Q==" info="Get Difluorite through wall"/>
-		<POI MapID="647" xpos="74.1655" ypos="3.58656" zpos="73.9117" type="jt.tg.m" GUID="nsYt194L+USLgvuYKPJ89w==" info="Get Petrified Stump through wall"/>
-		<POI MapID="647" xpos="66.7552" ypos="1.58138" zpos="81.2904" type="jt.tg.m" GUID="edj6QNz5DUyLbuF5e2o4pA==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
-		<POI MapID="647" xpos="45.2383" ypos="2.36991" zpos="121.049" type="jt.tg.m" GUID="jB99mq1W+k697igUzaUTkg=="/>
-		<POI MapID="647" xpos="39.716" ypos="2.37674" zpos="121.685" type="jt.tg.m" GUID="a3oazcISQk260fsElZhz5w=="/>
-		<POI MapID="647" xpos="69.16" ypos="11.7989" zpos="56.083" type="jt.tg.m" GUID="4AybHxaqU0S74BsYdrKP3A=="/>
-		<POI MapID="647" xpos="72.149" ypos="1.62073" zpos="43.2524" type="jt.tg.m" GUID="kCYMiS2CEUOCE9PPipHokg=="/>
-		<POI MapID="647" xpos="67.0152" ypos="1.54747" zpos="44.7602" type="jt.tg.m" GUID="QS3Ml5weMEqZZkgWETU7vQ=="/>
-		<POI MapID="647" xpos="59.3336" ypos="1.86519" zpos="50.2775" type="jt.tg.m" GUID="rogeLBNkUUSaW5k3XcznRA=="/>
-		<POI MapID="647" xpos="41.7837" ypos="31.0614" zpos="55.1572" type="jt.tg.m" GUID="/U6b9rvi+0WXHT9LekrXvg=="/>
-		<POI MapID="647" xpos="41.8979" ypos="30.9985" zpos="49.5828" type="jt.tg.m" GUID="cFov7OhB3k24IqLrgZ2ITA=="/>
-		<POI MapID="647" xpos="47.2994" ypos="31.0658" zpos="49.6215" type="jt.tg.m" GUID="iMaq8ciHZ0WsFVMeHVUgtA=="/>
-		<POI MapID="647" xpos="74.7806" ypos="0.215777" zpos="154.657" type="jt.tg.m" GUID="DiDTKX4Fk0OaMd1nCGzqQQ=="/>
-		<POI MapID="647" xpos="78.9478" ypos="0.148189" zpos="150.388" type="jt.tg.m" GUID="6H1iwLSDnkGVvslbECSmlg=="/>
-		<POI MapID="647" xpos="100.444" ypos="1.09189" zpos="83.2414" type="jt.tg.m" GUID="ihJwbKVvjE23QhY+nTZP7g=="/>
+		<POI MapID="647" xpos="79.2827" ypos="1.58842" zpos="38.4386" type="jt.hi.tg.m" GUID="e+4uARKuF0yGvJoge9rLnQ=="/>
+		<POI MapID="647" xpos="84.2713" ypos="2.36527" zpos="48.555" type="jt.hi.tg.m" GUID="2Ev87Tb9XkW7MjHhwt3fCQ=="/>
+		<POI MapID="647" xpos="94.9353" ypos="1.43486" zpos="46.3839" type="jt.hi.tg.m" GUID="hPyU9Yh8+Uyul6lrEmYO0Q=="/>
+		<POI MapID="647" xpos="107.138" ypos="1.98843" zpos="70.4076" type="jt.hi.tg.m" GUID="braDkzzDuEONwNxH09wpeQ=="/>
+		<POI MapID="647" xpos="115.798" ypos="0.477873" zpos="135.065" type="jt.hi.tg.m" GUID="QIQUy51ZLkC7nPxw2Ycuwg=="/>
+		<POI MapID="647" xpos="110.339" ypos="2.0533" zpos="106.411" type="jt.hi.tg.m" GUID="ddIfKNUZiESQ/4EYi15I+g=="/>
+		<POI MapID="647" xpos="113.759" ypos="0.94192" zpos="115.483" type="jt.hi.tg.m" GUID="jMosNtryuEOWpxPyF93BNw=="/>
+		<POI MapID="647" xpos="119.195" ypos="0.403898" zpos="118.086" type="jt.hi.tg.m" GUID="iw3eCc2fUU+ddZG9b1fLyA=="/>
+		<POI MapID="647" xpos="135.729" ypos="1.36335" zpos="139.539" type="jt.hi.tg.m" GUID="kaY7qqPpJEK4rig3AOY68A=="/>
+		<POI MapID="647" xpos="121.414" ypos="0.42686" zpos="141.47" type="jt.hi.tg.m" GUID="gQNSpdlVDE6I9OE+LBTcmg=="/>
+		<POI MapID="647" xpos="114.363" ypos="1.29806" zpos="86.0919" type="jt.hi.tg.m" GUID="qBfabMDSkku3QreSsDLH+g=="/>
+		<POI MapID="647" xpos="110.142" ypos="0.640805" zpos="125.813" type="jt.hi.tg.m" GUID="8gVxxaCct0CRwjcKfKF7dw=="/>
+		<POI MapID="647" xpos="107.436" ypos="1.0243" zpos="117.968" type="jt.hi.tg.m" GUID="MbWS2N+c/0u989AYvvF2eg=="/>
+		<POI MapID="647" xpos="86.4368" ypos="0.963602" zpos="119.842" type="jt.hi.tg.m" GUID="ApAY4apjMkS+XxDnNFcJ1g=="/>
+		<POI MapID="647" xpos="65.9949" ypos="-7.98944" zpos="121.781" type="jt.hi.tg.m" GUID="gybfFvWegkO9vWVE9iXofw=="/>
+		<POI MapID="647" xpos="57.4707" ypos="0.332214" zpos="103.655" type="jt.hi.tg.m" GUID="eY35ygd300KqKR4yqD1VSw=="/>
+		<POI MapID="647" xpos="76.836" ypos="0.402294" zpos="110.955" type="jt.hi.tg.m" GUID="jeEUYluQ+USuRitZI7QpAA=="/>
+		<POI MapID="647" xpos="83.2557" ypos="2.2173" zpos="103.901" type="jt.hi.tg.m" GUID="tX92fvmKeEuI2ro+AfWn5w=="/>
+		<POI MapID="647" xpos="86.0552" ypos="2.5701" zpos="95.8948" type="jt.hi.tg.m" GUID="A3fRhkw+V0CQQv2aKAGxrQ=="/>
+		<POI MapID="647" xpos="81.548" ypos="4.04863" zpos="89.0875" type="jt.hi.tg.m" GUID="7GTyuXThdEOcDsAHn+7m6Q==" info="Get Difluorite through wall"/>
+		<POI MapID="647" xpos="74.1655" ypos="3.58656" zpos="73.9117" type="jt.hi.tg.m" GUID="nsYt194L+USLgvuYKPJ89w==" info="Get Petrified Stump through wall"/>
+		<POI MapID="647" xpos="66.7552" ypos="1.58138" zpos="81.2904" type="jt.hi.tg.m" GUID="edj6QNz5DUyLbuF5e2o4pA==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
+		<POI MapID="647" xpos="45.2383" ypos="2.36991" zpos="121.049" type="jt.hi.tg.m" GUID="jB99mq1W+k697igUzaUTkg=="/>
+		<POI MapID="647" xpos="39.716" ypos="2.37674" zpos="121.685" type="jt.hi.tg.m" GUID="a3oazcISQk260fsElZhz5w=="/>
+		<POI MapID="647" xpos="69.16" ypos="11.7989" zpos="56.083" type="jt.hi.tg.m" GUID="4AybHxaqU0S74BsYdrKP3A=="/>
+		<POI MapID="647" xpos="72.149" ypos="1.62073" zpos="43.2524" type="jt.hi.tg.m" GUID="kCYMiS2CEUOCE9PPipHokg=="/>
+		<POI MapID="647" xpos="67.0152" ypos="1.54747" zpos="44.7602" type="jt.hi.tg.m" GUID="QS3Ml5weMEqZZkgWETU7vQ=="/>
+		<POI MapID="647" xpos="59.3336" ypos="1.86519" zpos="50.2775" type="jt.hi.tg.m" GUID="rogeLBNkUUSaW5k3XcznRA=="/>
+		<POI MapID="647" xpos="41.7837" ypos="31.0614" zpos="55.1572" type="jt.hi.tg.m" GUID="/U6b9rvi+0WXHT9LekrXvg=="/>
+		<POI MapID="647" xpos="41.8979" ypos="30.9985" zpos="49.5828" type="jt.hi.tg.m" GUID="cFov7OhB3k24IqLrgZ2ITA=="/>
+		<POI MapID="647" xpos="47.2994" ypos="31.0658" zpos="49.6215" type="jt.hi.tg.m" GUID="iMaq8ciHZ0WsFVMeHVUgtA=="/>
+		<POI MapID="647" xpos="74.7806" ypos="0.215777" zpos="154.657" type="jt.hi.tg.m" GUID="DiDTKX4Fk0OaMd1nCGzqQQ=="/>
+		<POI MapID="647" xpos="78.9478" ypos="0.148189" zpos="150.388" type="jt.hi.tg.m" GUID="6H1iwLSDnkGVvslbECSmlg=="/>
+		<POI MapID="647" xpos="100.444" ypos="1.09189" zpos="83.2414" type="jt.hi.tg.m" GUID="ihJwbKVvjE23QhY+nTZP7g=="/>
 
-		<POI MapID="647" xpos="28.97161" ypos="0.8684068" zpos="47.40729" type="jt.tg.m" GUID="jfAQmm8870KKZtC4E7Zz9w==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Sometimes the Launch-Mushroom to Garden doesn't spwan&#xA;Exit instance or take the first ramp on your right to go to the garden."/>
+		<POI MapID="647" xpos="28.97161" ypos="0.8684068" zpos="47.40729" type="jt.hi.tg.m" GUID="jfAQmm8870KKZtC4E7Zz9w==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Sometimes the Launch-Mushroom to Garden doesn't spwan&#xA;Exit instance or take the first ramp on your right to go to the garden."/>
 
-		<Trail type="jt.tg.t" trailData="Data/JapyxTrails/Trails/TheGrove-Trail.trl"/>
-		<Trail type="jt.tg.bc" trailData="Data/JapyxTrails/Trails/TheGrove-BanditChest.trl"/>
+		<Trail type="jt.hi.tg.t" trailData="Data/JapyxTrails/Trails/TheGrove-Trail.trl"/>
+		<Trail type="jt.hi.tg.bc" trailData="Data/JapyxTrails/Trails/TheGrove-BanditChest.trl"/>
 
+		<!--======================================================================================================-->
+		<!--==                                           SOUTHSUN COVE                                          ==-->
+		<!--======================================================================================================-->
+		<POI MapID="873" xpos="636.99" ypos="34.34055" zpos="-108.1144" type="jt.bp.sc" GUID="zWHriLp/9USfdydkun/kdw=="/>
+		<POI MapID="873" xpos="542.9363" ypos="41.27487" zpos="-40.52278" type="jt.bp.sc" GUID="+PcWZg3nKkmtAF6Ob0FZew=="/>
+
+		<!--======================================================================================================-->
+		<!--==                                             EMBER BAY                                            ==-->
+		<!--======================================================================================================-->
+		<POI MapID="1175" xpos="-757.5933" ypos="4.609261" zpos="-845.1612" type="jt.bp.eb" GUID="zXMmZo+s1UqNxsk6ePUl5g=="/>
 	</POIs>
 
 </OverlayData>
