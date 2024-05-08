@@ -28,7 +28,7 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="bp" displayName="Blooming Passiflora">
-			<MarkerCategory name="sc" displayName="Southsun Cove" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" />
+			<MarkerCategory name="sc" displayName="Southsun Cove" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" behavior="2" heightOffset="5" mapDisplaySize="30" minSize="20" triggerRange="8" autoTrigger="1"/>
 			<MarkerCategory name="eb" displayName="Ember Bay" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" />
 		</MarkerCategory>
 	</MarkerCategory>
@@ -255,6 +255,11 @@
 		<!--======================================================================================================-->
 		<POI MapID="873" xpos="636.99" ypos="34.34055" zpos="-108.1144" type="jt.bp.sc" GUID="zWHriLp/9USfdydkun/kdw=="/>
 		<POI MapID="873" xpos="542.9363" ypos="41.27487" zpos="-40.52278" type="jt.bp.sc" GUID="+PcWZg3nKkmtAF6Ob0FZew=="/>
+		<!-- Marker test bounce when closing in -->
+		<POI MapID="873" xpos="205.7813" ypos="4.883483" zpos="249.9931" GUID="vpi15of5r0OBs5sh+pOdYQ==" type="jt.bp.sc" autoTrigger="0" bounce="rise" heightOffset="0" bounce-height="5" behavior="4" resetLength="5" triggerRange="50"/>
+		<!-- Marker test double -->
+		<POI MapID="873" xpos="261.1913" ypos="-0.6752112" zpos="229.7393" GUID="GOSDb++AekGrnFEhYWDXRQ==" type="jt.bp.sc" autoTrigger="1" triggerRange="10" heightOffset="0" behavior="4" resetLength="5" inGameVisibility="0"/>
+		<POI MapID="873" xpos="261.1913" ypos="-0.6752112" zpos="229.7393" GUID="GOSDb++AekGrnFEhYWDXRQ==" type="jt.bp.sc" autoTrigger="0" triggerRange="50" heightOffset="0" behavior="4" resetLength="5" bounce="rise" bounce-height="5"/>
 
 		<!--======================================================================================================-->
 		<!--==                                             EMBER BAY                                            ==-->
