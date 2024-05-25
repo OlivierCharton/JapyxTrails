@@ -28,8 +28,7 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="bp" displayName="Blooming Passiflora">
-			<!-- <MarkerCategory name="sc" displayName="Southsun Cove" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" mapDisplaySize="30" minSize="20" behavior="2"/> -->
-			<MarkerCategory name="sc" displayName="Southsun Cove" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" mapDisplaySize="30" minSize="20" behavior="4" resetLength="5"/> <!-- TEST -->
+			<MarkerCategory name="sc" displayName="Southsun Cove" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" mapDisplaySize="30" minSize="20" behavior="2"/>
 			<MarkerCategory name="eb" displayName="Ember Bay" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" mapDisplaySize="30" minSize="20" behavior="4" resetLength="5"/>
 		</MarkerCategory>
 	</MarkerCategory>
@@ -267,35 +266,40 @@
 		<POI MapID="873" xpos="395.822" ypos="58.73426" zpos="-177.1363" type="jt.bp.sc" GUID="zfw6oZQAhEK4fYjDbWu8ug==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
 		<POI MapID="873" xpos="395.822" ypos="58.73426" zpos="-177.1363" type="jt.bp.sc" GUID="zfw6oZQAhEK4fYjDbWu8ug==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
 
+		<POI MapID="873" xpos="685.7949" ypos="18.10633" zpos="33.8902" type="jt.bp.sc" GUID="9mImB/CM4UW2e0EfFt/3uA==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
+		<POI MapID="873" xpos="685.7949" ypos="18.10633" zpos="33.8902" type="jt.bp.sc" GUID="9mImB/CM4UW2e0EfFt/3uA==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
 
 		<!-- Soutwest Island -->
 		<POI MapID="873" xpos="-609.5706" ypos="31.60211" zpos="-262.833" type="jt.bp.sc" GUID="FdZOekhKKkCqBiqeuSUypQ==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
 		<POI MapID="873" xpos="-609.5706" ypos="31.60211" zpos="-262.833" type="jt.bp.sc" GUID="FdZOekhKKkCqBiqeuSUypQ==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
 
 		<!-- Wind Wall -->
+		<POI MapID="873" xpos="-168.305" ypos="42.88157" zpos="-209.5747" type="jt.bp.sc" GUID="Z+ln8JqIz0WBGPFHTz1x9g==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
+		<POI MapID="873" xpos="-168.305" ypos="42.88157" zpos="-209.5747" type="jt.bp.sc" GUID="Z+ln8JqIz0WBGPFHTz1x9g==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
 
 		<!-- Peninsula -->
-
+		<POI MapID="873" xpos="-304.4482" ypos="0.8602949" zpos="370.6882" type="jt.bp.sc" GUID="AmEJhOtEVkyOEZPYtkUaPw==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
+		<POI MapID="873" xpos="-304.4482" ypos="0.8602949" zpos="370.6882" type="jt.bp.sc" GUID="AmEJhOtEVkyOEZPYtkUaPw==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
 
 		<!-- Jumping Puzzle -->
+		<POI MapID="873" xpos="-511.0046" ypos="33.97876" zpos="271.8575" type="jt.bp.sc" GUID="WpyEIsed40uc0stuXeU8OA==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
+		<POI MapID="873" xpos="-511.0046" ypos="33.97876" zpos="271.8575" type="jt.bp.sc" GUID="WpyEIsed40uc0stuXeU8OA==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
 
+		<POI MapID="873" xpos="-531.3264" ypos="54.53709" zpos="314.273" type="jt.bp.sc" GUID="Ga1tOo1LfUOGCOSlhshzfA==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
+		<POI MapID="873" xpos="-531.3264" ypos="54.53709" zpos="314.273" type="jt.bp.sc" GUID="Ga1tOo1LfUOGCOSlhshzfA==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
 		
-		<!-- Marker test 1 : one marker with height offset => no rising -->
-		<!-- <POI MapID="873" xpos="623.6978" ypos="30.96521" zpos="-331.1216" GUID="S4monyUEikmqR861HP5Itw==" type="jt.bp.sc" autoTrigger="1" triggerRange="10" heightOffset="5" /> -->
-		<!-- Marker test 1-->
-
-		<!-- Marker test 2 : 2 markers with rising => can interact on outer range -->
-		<!-- 
-		<POI MapID="873" xpos="261.1913" ypos="-0.6752112" zpos="229.7393" GUID="GOSDb++AekGrnFEhYWDXRQ==" type="jt.bp.sc" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
-		<POI MapID="873" xpos="261.1913" ypos="-0.6752112" zpos="229.7393" GUID="GOSDb++AekGrnFEhYWDXRQ==" type="jt.bp.sc" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
-		-->
-		<!-- Marker test 2-->
 
 		<!--======================================================================================================-->
 		<!--==                                             EMBER BAY                                            ==-->
 		<!--======================================================================================================-->
 		<POI MapID="1175" xpos="-757.5933" ypos="4.609261" zpos="-845.1612" type="jt.bp.eb" GUID="zXMmZo+s1UqNxsk6ePUl5g==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
 		<POI MapID="1175" xpos="-757.5933" ypos="4.609261" zpos="-845.1612" type="jt.bp.eb" GUID="zXMmZo+s1UqNxsk6ePUl5g==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
+
+		<POI MapID="1175" xpos="-864.7797" ypos="18.63244" zpos="-421.1799" type="jt.bp.eb" GUID="I37d2v9FY0u7eyEhGHcBpg==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
+		<POI MapID="1175" xpos="-864.7797" ypos="18.63244" zpos="-421.1799" type="jt.bp.eb" GUID="I37d2v9FY0u7eyEhGHcBpg==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
+
+		<POI MapID="1175" xpos="-464.9957" ypos="30.61478" zpos="-843.8058" type="jt.bp.eb" GUID="99jvrRTaskeiAtqpMTbgkg==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
+		<POI MapID="1175" xpos="-464.9957" ypos="30.61478" zpos="-843.8058" type="jt.bp.eb" GUID="99jvrRTaskeiAtqpMTbgkg==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
 	</POIs>
 
 </OverlayData>
