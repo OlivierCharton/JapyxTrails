@@ -26,6 +26,11 @@
 				<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
 				<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
+			<MarkerCategory name="jw" displayName="Homestead">
+				<MarkerCategory name="t" DisplayName="Trail" animSpeed="0" color="547bb0" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/Trail.png" trailScale="0.8"  miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="bc" DisplayName="Bandit Chest" alpha="0.75" animSpeed="0" color="9c4449" fadeFar="1000" fadeNear="750" texture="Data/JapyxTrails/Markers/SideTrail.png" trailScale="0.75" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory Name="m" DisplayName="Markers" fadeFar="1000" fadeNear="950" iconFile="Data/JapyxTrails/Markers/Target.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="bp" displayName="Blooming Passiflora">
 			<MarkerCategory name="sc" displayName="Southsun Cove" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" mapDisplaySize="30" minSize="20" behavior="2"/>
@@ -249,6 +254,47 @@
 
 		<Trail type="jt.hi.tg.t" trailData="Data/JapyxTrails/Trails/TheGrove-Trail.trl"/>
 		<Trail type="jt.hi.tg.bc" trailData="Data/JapyxTrails/Trails/TheGrove-BanditChest.trl"/>
+
+		<!--======================================================================================================-->
+		<!--==                                            HOMESTEAD                                             ==-->
+		<!--======================================================================================================-->
+		<POI MapID="1558" xpos="98.474" ypos="16.7772" zpos="-69.2843" type="jt.hi.jw.m" GUID="DQqlNHf5XEGbiI20e9Zelg=="/>
+		<POI MapID="1558" xpos="97.2076" ypos="16.696" zpos="-75.659" type="jt.hi.jw.m" GUID="Wyt3qWbImEWJqyZ4A6broA=="/>
+		<POI MapID="1558" xpos="98.5457" ypos="16.7772" zpos="-81.1642" type="jt.hi.jw.m" GUID="pniDdfr9dEKK7+HfSBiKMA=="/>
+		<POI MapID="1558" xpos="135.454" ypos="16.8608" zpos="-76.8584" type="jt.hi.jw.m" GUID="B+nVjlhrO0i/Wi4T3mKKOA=="/>
+		<POI MapID="1558" xpos="136.325" ypos="16.7842" zpos="-71.3835" type="jt.hi.jw.m" GUID="EGwgVFF2G0GYMYisMdaDtw=="/>
+		<POI MapID="1558" xpos="134.995" ypos="16.8672" zpos="-65.2364" type="jt.hi.jw.m" GUID="RPoB+bsMw0O20ZZnu8sWUQ=="/>
+		<POI MapID="1558" xpos="162.315" ypos="15.235" zpos="-50.5149" type="jt.hi.jw.m" GUID="D2uJOppWTEWYjZUV5dm3Sg=="/>
+		<POI MapID="1558" xpos="177.756" ypos="15.2373" zpos="-45.7654" type="jt.hi.jw.m" GUID="oFc/c1zfWEaZtAkTfgAJjg==" info="If you have a blink, you can aim for next marker and tp through the floor"/>
+		<POI MapID="1558" xpos="176.577" ypos="20.9592" zpos="-45.8841" type="jt.hi.jw.m" GUID="D6cFx75TrkGuiYhPzqq0cQ=="/>
+		<POI MapID="1558" xpos="175.092" ypos="15.2349" zpos="-62.8182" type="jt.hi.jw.m" GUID="xVLZZO+lvECn5Z+x957qbA=="/>
+		<POI MapID="1558" xpos="172.359" ypos="15.2349" zpos="-68.4813" type="jt.hi.jw.m" GUID="8yxCdHP4eU6N1xpCw34hXQ=="/>
+		<POI MapID="1558" xpos="180.882" ypos="15.4414" zpos="-134.96" type="jt.hi.jw.m" GUID="o/UduVoXKUyvz2dmzjkM0Q=="/>
+		<POI MapID="1558" xpos="187.474" ypos="15.4413" zpos="-136.218" type="jt.hi.jw.m" GUID="KQFdlGSrqESaeGuoPXvHLg=="/>
+		<POI MapID="1558" xpos="192.566" ypos="15.43" zpos="-135.03" type="jt.hi.jw.m" GUID="/YLjJVIvsUKIa0RpgO5ZDg=="/>
+		<POI MapID="1558" xpos="199.365" ypos="15.2356" zpos="-209.982" type="jt.hi.jw.m" GUID="nT2MysxME06nFu3s+SlQQw=="/>
+		<POI MapID="1558" xpos="192.372" ypos="15.1882" zpos="-215.237" type="jt.hi.jw.m" GUID="JK1/qNNjeUSKZYDB4PhM4w=="/>
+		<POI MapID="1558" xpos="178.352" ypos="14.2382" zpos="-224.539" type="jt.hi.jw.m" GUID="N5qqBsDkMUiklB0reujMlw=="/>
+		<POI MapID="1558" xpos="189.301" ypos="15.1114" zpos="-224.846" type="jt.hi.jw.m" GUID="R2AEnsNr60O9UpyFzkceZg=="/>
+		<POI MapID="1558" xpos="196.431" ypos="15.2351" zpos="-219.785" type="jt.hi.jw.m" GUID="Lf0Ba208g0SznMq8Wby7KQ=="/>
+		<POI MapID="1558" xpos="207.448" ypos="15.2349" zpos="-218.193" type="jt.hi.jw.m" GUID="Lmnm9EtCE0WPAJoT95E+SQ=="/>
+		<POI MapID="1558" xpos="306.502" ypos="5.17784" zpos="-195.395" type="jt.hi.jw.m" GUID="5fKenOvF50qWSXppoj9U8A=="/>
+		<POI MapID="1558" xpos="313.933" ypos="5.17761" zpos="-195.112" type="jt.hi.jw.m" GUID="bbB128/qZE6GOEbAMCb0uA=="/>
+		<POI MapID="1558" xpos="321.465" ypos="5.30595" zpos="-196.343" type="jt.hi.jw.m" GUID="hLolxa5x2Em8+rCxqg/nrg=="/>
+		<POI MapID="1558" xpos="321.85" ypos="5.16458" zpos="-202.99" type="jt.hi.jw.m" GUID="8C74n82BA0WmW7VZbFSrpA=="/>
+		<POI MapID="1558" xpos="323.19" ypos="5.1642" zpos="-219.226" type="jt.hi.jw.m" GUID="aMxA2vBENke3uhz2VS3jMw=="/>
+		<POI MapID="1558" xpos="316.132" ypos="5.16398" zpos="-222.568" type="jt.hi.jw.m" GUID="pAhzDiKjMUyLgRFCa93T0w=="/>
+		<POI MapID="1558" xpos="323.284" ypos="5.164" zpos="-234.798" type="jt.hi.jw.m" GUID="7airgGWMU0iVC64+br9Lzg=="/>
+		<POI MapID="1558" xpos="335.561" ypos="5.16399" zpos="-250.371" type="jt.hi.jw.m" GUID="tWMksUDZYEGgS2Iq291CUQ=="/>
+		<POI MapID="1558" xpos="330.057" ypos="5.16399" zpos="-251.647" type="jt.hi.jw.m" GUID="9VPFdHMcYEy5h4s1iJBzpQ=="/>
+		<POI MapID="1558" xpos="315.425" ypos="6.5777" zpos="-248.742" type="jt.hi.jw.m" GUID="5Vi3b2nMD0yr7FZeBxAd/g=="/>
+		<POI MapID="1558" xpos="309.509" ypos="5.16443" zpos="-249.072" type="jt.hi.jw.m" GUID="MtVIoHmvQEm7NZnwIPEBXg=="/>
+		<POI MapID="1558" xpos="305.555" ypos="5.16404" zpos="-245.644" type="jt.hi.jw.m" GUID="4HSHAgVVa0GEpEnsUpWG0Q=="/>
+		<POI MapID="1558" xpos="311.009" ypos="5.16412" zpos="-241.107" type="jt.hi.jw.m" GUID="kKhPwu2QP0Ox36HUFhXJdQ==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
+
+		<Trail type="jt.hi.jw.t" trailData="Data/JapyxTrails/Trails/Homestead-Trail.trl"/>
+		<Trail type="jt.hi.jw.bc" trailData="Data/JapyxTrails/Trails/Homestead-BanditChest.trl"/>
+
 
 		<!--======================================================================================================-->
 		<!--==                                           SOUTHSUN COVE                                          ==-->

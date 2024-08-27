@@ -12,3 +12,6 @@ rename "JapyxTrails.zip" "JapyxTrails.taco"
 
 :: copy the taco to blish marker folder
 copy "JapyxTrails.taco" "C:\Users\olivi\Documents\Guild Wars 2\addons\Blish.HUD\settings\markers"
+
+:: copy the taco to taco marker folder
+copy "JapyxTrails.taco" "C:\Program Files\Guild Wars 2\Addons\GW2TacO_067r\POIs"
