@@ -34,7 +34,7 @@
 		</MarkerCategory>
 		<MarkerCategory name="bp" displayName="Blooming Passiflora">
 			<MarkerCategory name="sc" displayName="Southsun Cove" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" mapDisplaySize="30" minSize="20" behavior="2"/>
-			<MarkerCategory name="eb" displayName="Ember Bay" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" mapDisplaySize="30" minSize="20" behavior="4" resetLength="5"/>
+			<MarkerCategory name="eb" displayName="Ember Bay" iconFile="Data/JapyxTrails/Markers/Passiflora.png" miniMapVisibility="0" mapDisplaySize="30" minSize="20" behavior="2"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	
@@ -325,7 +325,7 @@
 
 		<!-- Peninsula -->
 		<POI MapID="873" xpos="-304.4482" ypos="0.8602949" zpos="370.6882" type="jt.bp.sc" GUID="AmEJhOtEVkyOEZPYtkUaPw==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
-		<POI MapID="873" xpos="-304.4482" ypos="0.8602949" zpos="370.6882" type="jt.bp.sc" GUID="AmEJhOtEVkyOEZPYtkUaPw==" autoTrigger="0" triggerRange="50" bounce="rise" bounce-height="5"/> 
+		<POI MapID="873" xpos="-304.4482" ypos="0.8602949" zpos="370.6882" type="jt.bp.sc" GUID="AmEJhOtEVkyOEZPYtkUaPw==" autoTrigger="0" triggerRange="60" bounce="rise" bounce-height="5"/> 
 
 		<!-- Jumping Puzzle -->
 		<POI MapID="873" xpos="-511.0046" ypos="33.97876" zpos="271.8575" type="jt.bp.sc" GUID="WpyEIsed40uc0stuXeU8OA==" autoTrigger="1" triggerRange="10" inGameVisibility="0"/>
