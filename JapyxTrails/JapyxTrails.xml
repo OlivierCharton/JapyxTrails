@@ -82,6 +82,7 @@
 		<POI MapID="375" xpos="111.839" ypos="374.645" zpos="-272.987" type="jt.hi.h.m" GUID="At4258FWV0eOD1JqHcl1Cg=="/>
 		<POI MapID="375" xpos="120.087" ypos="374.644" zpos="-274.501" type="jt.hi.h.m" GUID="w6ykxQBS/EKQ22bGPFVUFg=="/>
 		<POI MapID="375" xpos="126.28" ypos="374.618" zpos="-280.214" type="jt.hi.h.m" GUID="BBVWK22B/k+bw4mTvN8eaw=="/>
+		<POI MapID="375" xpos="-4.965078" ypos="342.0337" zpos="-338.2211" type="jt.hi.h.m" GUID="ukHkXbfkiU2ji4Ipe3kgXw=="/>
 
 		<POI MapID="375" xpos="34.3523" ypos="342.179" zpos="-231.07" type="jt.hi.h.m" GUID="6Ver22NYjE2XRVGj+lLnpg==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Do not exit !"/>
 
@@ -125,6 +126,8 @@
 		<POI MapID="248" xpos="145.237" ypos="82.3957" zpos="178.246" type="jt.hi.dr.m" GUID="FoTA193BDEyxVLGaaiUafg=="/>
 		<POI MapID="248" xpos="150.06" ypos="82.3352" zpos="175.33" type="jt.hi.dr.m" GUID="3apqrzodMEmbQLY9roIVIw=="/>
 		<POI MapID="248" xpos="180.49" ypos="68.0465" zpos="187.751" type="jt.hi.dr.m" GUID="VkX1STH360e1p5NWm7Fgcg=="/>
+		<POI MapID="248" xpos="224.9247" ypos="69.32996" zpos="209.9348" type="jt.hi.dr.m" GUID="SxAyvM3ZQUKR0fPNSP5Nvg=="/>
+		<POI MapID="248" xpos="218.3291" ypos="69.35125" zpos="211.0348" type="jt.hi.dr.m" GUID="/qGvtjqpr0+dcfj9K0Crog=="/>
 
 		<Trail type="jt.hi.dr.t" trailData="Data/JapyxTrails/Trails/DivinitysReach-Trail.trl"/>
 		<Trail type="jt.hi.dr.bc" trailData="Data/JapyxTrails/Trails/DivinitysReach-BanditChest.trl"/>
@@ -155,7 +158,6 @@
 		<POI MapID="650" xpos="-509.238" ypos="327.549" zpos="613.483" type="jt.hi.rs.m" GUID="7Ln2LnF+/UW8ZNHsnPWIpA=="/>
 		<POI MapID="650" xpos="-546.91" ypos="327.273" zpos="671.217" type="jt.hi.rs.m" GUID="vMRNW1OXD0+6FKTqhcUpmg=="/>
 		<POI MapID="650" xpos="-561.688" ypos="328.932" zpos="581.049" type="jt.hi.rs.m" GUID="S7htCy8Dq0+rtg3L6WYmGg=="/>
-		<POI MapID="650" xpos="-505.012" ypos="327.659" zpos="632.455" type="jt.hi.rs.m" GUID="PIGZef7tKE60i7qqJ2NcOw=="/>
 		<POI MapID="650" xpos="-492.57" ypos="326.966" zpos="645.123" type="jt.hi.rs.m" GUID="3YQ3osuD9UGl0pjnNL18HA=="/>
 		<POI MapID="650" xpos="-484.141" ypos="327.757" zpos="651.233" type="jt.hi.rs.m" GUID="QubmJaP24kqsomz5UZLZUA=="/>
 		<POI MapID="650" xpos="-473.932" ypos="326.946" zpos="660.24" type="jt.hi.rs.m" GUID="5lxyn/ku8UCLhBBGrUc55Q=="/>
@@ -172,6 +174,8 @@
 		<POI MapID="650" xpos="-426.451" ypos="335.745" zpos="653.498" type="jt.hi.rs.m" GUID="KZRKFZSNUUa9HwFr6h1kAw=="/>
 		<POI MapID="650" xpos="-598.016" ypos="326.882" zpos="685.923" type="jt.hi.rs.m" GUID="d6WkGcSk3ku5ZGdms/2RgQ=="/>
 		<POI MapID="650" xpos="-449.239" ypos="335.547" zpos="687.992" type="jt.hi.rs.m" GUID="i3U7f4IoxESrUTf+8QsgoQ=="/>
+		<POI MapID="650" xpos="-500.1113" ypos="327.541" zpos="626.7365" type="jt.hi.rs.m" GUID="9/iWpo9w70C1iMfGGKfR3A=="/>
+		<POI MapID="650" xpos="-500.9565" ypos="327.6118" zpos="630.8145" type="jt.hi.rs.m" GUID="c6IUBK7I/0C5E8MFR5h8/A=="/>
 
 		<Trail type="jt.hi.rs.t" trailData="Data/JapyxTrails/Trails/RataSum-Trail.trl"/>
 		<Trail type="jt.hi.rs.bc" trailData="Data/JapyxTrails/Trails/RataSum-BanditChest.trl"/>
@@ -213,6 +217,8 @@
 		<POI MapID="371" xpos="330.064" ypos="131.477" zpos="293.826" type="jt.hi.bc.m" GUID="ONXXQ7LLTUu9ehYPsoV+8g=="/>
 		<POI MapID="371" xpos="343.276" ypos="131.417" zpos="302.69" type="jt.hi.bc.m" GUID="3BD42nObZEC2ZWvx1r5+aQ=="/>
 		<POI MapID="371" xpos="268.8138" ypos="133.7006" zpos="289.3972" type="jt.hi.bc.m" GUID="8YDd17aspUeNSz9nle700A=="/>
+		<POI MapID="371" xpos="244.6171" ypos="135.1521" zpos="383.7258" type="jt.hi.bc.m" GUID="dKJGUAnx1kWruHkVkYUo/Q=="/>
+		<POI MapID="371" xpos="241.3125" ypos="135.5301" zpos="387.9026" type="jt.hi.bc.m" GUID="CcLdNO+HsEeQXQcs2bSTVw=="/>
 
 		<Trail type="jt.hi.bc.t" trailData="Data/JapyxTrails/Trails/BlackCitadel-Trail.trl"/>
 		<Trail type="jt.hi.bc.bc" trailData="Data/JapyxTrails/Trails/BlackCitadel-BanditChest.trl"/>
@@ -254,8 +260,10 @@
 		<POI MapID="647" xpos="74.7806" ypos="0.215777" zpos="154.657" type="jt.hi.tg.m" GUID="DiDTKX4Fk0OaMd1nCGzqQQ=="/>
 		<POI MapID="647" xpos="78.9478" ypos="0.148189" zpos="150.388" type="jt.hi.tg.m" GUID="6H1iwLSDnkGVvslbECSmlg=="/>
 		<POI MapID="647" xpos="100.444" ypos="1.09189" zpos="83.2414" type="jt.hi.tg.m" GUID="ihJwbKVvjE23QhY+nTZP7g=="/>
+		<POI MapID="647" xpos="102.0012" ypos="1.434255" zpos="49.1466" type="jt.hi.tg.m" GUID="L4y+gGcGpEG+hZ7KXOz87g=="/>
+		<POI MapID="647" xpos="107.6095" ypos="1.434274" zpos="54.49823" type="jt.hi.tg.m" GUID="0U1bdMN6akGj9uyMWH1aBA=="/>
 
-		<POI MapID="647" xpos="28.97161" ypos="0.8684068" zpos="47.40729" type="jt.hi.tg.m" GUID="jfAQmm8870KKZtC4E7Zz9w==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Sometimes the Launch-Mushroom to Garden doesn't spwan&#xA;Exit instance or take the first ramp on your right to go to the garden."/>
+		<POI MapID="647" xpos="28.97161" ypos="0.8684068" zpos="47.40729" type="jt.hi.tg.m" GUID="jfAQmm8870KKZtC4E7Zz9w==" iconFile="Data/JapyxTrails/Markers/caution.png" info="Sometimes the Launch-Mushroom to Garden doesn't spawn&#xA;Exit instance or take the first ramp on your right to go to the garden."/>
 
 		<Trail type="jt.hi.tg.t" trailData="Data/JapyxTrails/Trails/TheGrove-Trail.trl"/>
 		<Trail type="jt.hi.tg.bc" trailData="Data/JapyxTrails/Trails/TheGrove-BanditChest.trl"/>
@@ -296,6 +304,7 @@
 		<POI MapID="1558" xpos="309.509" ypos="5.16443" zpos="-249.072" type="jt.hi.jw.m" GUID="MtVIoHmvQEm7NZnwIPEBXg=="/>
 		<POI MapID="1558" xpos="305.555" ypos="5.16404" zpos="-245.644" type="jt.hi.jw.m" GUID="4HSHAgVVa0GEpEnsUpWG0Q=="/>
 		<POI MapID="1558" xpos="311.009" ypos="5.16412" zpos="-241.107" type="jt.hi.jw.m" GUID="kKhPwu2QP0Ox36HUFhXJdQ==" info="King-Sized Candy Corn Node : 2x&#xA;Cancel 2nd animation after 2 loots (5 total)"/>
+		<POI MapID="1558" xpos="320.4858" ypos="5.164494" zpos="-227.3956" type="jt.hi.jw.m" GUID="CV3NfBnbDEa3MBfveO1mPg=="/>
 
 		<Trail type="jt.hi.jw.t" trailData="Data/JapyxTrails/Trails/Homestead-Trail.trl"/>
 		<Trail type="jt.hi.jw.bc" trailData="Data/JapyxTrails/Trails/Homestead-BanditChest.trl"/>
